@@ -6,7 +6,7 @@ Foton — программа для снимков экрана под Windows 1
 убрано или заменено на возможности Windows.
 
 **Скачать:** готовые `Foton-Setup.exe` и `Foton-portable.7z` — на странице
-[Releases](https://github.com/Dr-Livsi/foton-test-repka/releases).
+[Releases](https://github.com/Dr-Livsi/foton/releases).
 
 ## Установка
 
