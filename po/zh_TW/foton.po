@@ -1,0 +1,1966 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Huang <s8321414@gmail.com>, 2016, 2017.
+# pan93412 <pan93412@gmail.com>, 2018, 2019, 2020.
+# SPDX-FileCopyrightText: 2023-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 17:32+0000\n"
+"PO-Revision-Date: 2026-08-04 06:51+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.11.70\n"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:2
+#, kde-format
+msgid "Language and Startup"
+msgstr "語言與啟動"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:4
+#, kde-format
+msgid "Language:"
+msgstr "語言："
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:6
+#, kde-format
+msgid "A new language is used after Foton is restarted."
+msgstr "重新啟動 Foton 後將會使用新的語言。"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:8
+#, kde-format
+msgid "Start Foton automatically with Windows"
+msgstr "隨 Windows 自動啟動 Foton"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:10
+#, kde-format
+msgid "Keep running in the system tray after the windows are closed"
+msgstr "關閉視窗後繼續在系統匣中執行"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:12
+#, kde-format
+msgid "The screenshot keys only work while Foton is running."
+msgstr "螢幕截圖按鍵僅在 Foton 執行時有效。"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:14
+#, kde-format
+msgid "Taking Screenshots"
+msgstr "螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:16
+#, kde-format
+msgid "When Foton is started:"
+msgstr "啟動 Foton 時："
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:18
+#, kde-format
+msgid "Select a region"
+msgstr "選取區域"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:20
+#, kde-format
+msgid "Take a screenshot of the whole screen"
+msgstr "擷取整個螢幕"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:22
+#, kde-format
+msgid "Use the last capture mode"
+msgstr "使用上次的擷取模式"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:24
+#, kde-format
+msgid "Only open the Foton window"
+msgstr "僅開啟 Foton 視窗"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:26
+#, kde-format
+msgid "When Foton is already running:"
+msgstr "Foton 已在執行時："
+
+#. #-#-#-#-#  cpp.pot (PACKAGE VERSION)  #-#-#-#-#
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:28 src/Gui/CaptureOptions.qml:17
+#, kde-format
+msgid "Take a new screenshot"
+msgstr "拍一張新的螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:30
+#, kde-format
+msgid "Open a new Foton window"
+msgstr "開啟新 Foton 視窗"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:32
+#, kde-format
+msgid "Bring the Foton window to the front"
+msgstr "將 Foton 視窗帶到前景"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:34
+#, kde-format
+msgid "After Taking a Screenshot"
+msgstr "擷取螢幕截圖之後"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:36
+#, kde-format
+msgid "Save the screenshot to the default folder"
+msgstr "將螢幕截圖儲存到預設資料夾"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:38
+#, kde-format
+msgid "Clipboard:"
+msgstr "剪貼簿："
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:40
+#, kde-format
+msgid "Do not copy anything"
+msgstr "不要複製"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:42
+#, kde-format
+msgid "Copy the image"
+msgstr "複製影像"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:44
+#, kde-format
+msgid "Copy the file location"
+msgstr "複製檔案位置"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:46
+#, kde-format
+msgid "Editing"
+msgstr "編輯"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:48
+#, kde-format
+msgid "Add a shadow to shapes, arrows and text"
+msgstr "為形狀、箭頭和文字加上陰影"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:50
+#, kde-format
+msgid ""
+"Used for every new screenshot. The shadow can still be turned on or off "
+"while editing."
+msgstr "用於每張新的螢幕截圖。編輯時仍可開啟或關閉陰影。"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:52
+#, kde-format
+msgid "Region Selection"
+msgstr "區域選取"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:54
+#, kde-format
+msgid "Lighten the area around the selection instead of darkening it"
+msgstr "讓選取範圍周圍變亮，而不是變暗"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:56
+#, kde-format
+msgid "Take the screenshot as soon as the mouse button is released"
+msgstr "放開滑鼠按鍵後立即擷取螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:58
+#, kde-format
+msgid "Magnifier:"
+msgstr "放大鏡："
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:60
+#, kde-format
+msgid "Never"
+msgstr "永不記住"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:62
+#, kde-format
+msgid "Always"
+msgstr "永遠記住"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:64
+#, kde-format
+msgid "While holding Shift"
+msgstr "按住 Shift 時"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:66
+#, kde-format
+msgid "Folder"
+msgstr "資料夾"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:68
+#, kde-format
+msgid "Save Location:"
+msgstr "儲存位置："
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:70
+#, kde-format
+msgid "Image Quality"
+msgstr "影像品質"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:72
+#, kde-format
+msgid "Compression Quality:"
+msgstr "壓縮品質："
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:74
+#, kde-format
+msgid "For lossy image formats like JPEG"
+msgstr "適用於 JPEG 等有損影像格式"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:76
+#, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:78
+#, kde-format
+msgid "File Name"
+msgstr "檔案名稱"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:80
+#, kde-format
+msgid "Filename:"
+msgstr "檔案名稱："
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:82
+#, kde-format
+msgid "Drag the blocks to change their order."
+msgstr "拖曳區塊以變更順序。"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:84
+#, kde-format
+msgctxt "@label:listbox the file format of images"
+msgid "Format:"
+msgstr "格式："
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:86
+#, kde-format
+msgctxt "@label an example of the file name"
+msgid "Example:"
+msgstr "範例："
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:88
+#, kde-format
+msgid "What to do when Foton is launched"
+msgstr "Foton 啟動時的行為"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:90
+#, kde-format
+msgid ""
+"What should happen if print key is pressed when Foton is already running"
+msgstr "Foton 執行時，按下 Print 鍵的行為"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:92
+#, kde-format
+msgid "Save screenshot automatically after it is taken"
+msgstr "自動儲存螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:94 /tmp/i18n/rc.cpp:98
+#, kde-format
+msgid "Clipboard action which should be executed after the screenshot is taken"
+msgstr "擷取螢幕後要執行的剪貼簿動作"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:96
+#, kde-format
+msgid "Whether to use a light color mask in the region selection dialog"
+msgstr "是否在區域選擇對話框使用亮色遮罩"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:100
+#, kde-format
+msgid ""
+"Whether the screenshot should be captured after selecting the region and "
+"releasing the mouse"
+msgstr "是否在選取好區域，放開滑鼠後擷取螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:102
+#, kde-format
+msgid "Whether shapes, arrows and text drawn on a new screenshot have a shadow"
+msgstr "新螢幕截圖上繪製的形狀、箭頭和文字是否有陰影"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:104
+#, kde-format
+msgid ""
+"Keep running in the system tray after all windows are closed, so that global "
+"shortcuts work"
+msgstr "關閉所有視窗後繼續在系統匣中執行，讓全域快捷鍵可以運作"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:106
+#, kde-format
+msgid "Start in the system tray when logging in to Windows"
+msgstr "登入 Windows 時在系統匣中啟動"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:108
+#, kde-format
+msgid "The language of the text in screenshots, used to recognize the text"
+msgstr "螢幕截圖中文字的語言，用於辨識文字"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:110
+#, kde-format
+msgid "Whether the mouse cursor is included in the screenshot"
+msgstr "是否將滑鼠游標加入螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:112
+#, kde-format
+msgid "Whether the window decorations are included in the screenshot"
+msgstr "是否要將視窗裝飾加入螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:114
+#, kde-format
+msgid "Whether the window shadow is included in the screenshot"
+msgstr "螢幕截圖是否要包含視窗裝飾"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:116
+#, kde-format
+msgid "Quit after saving or copying an image"
+msgstr "儲存或複製圖片後離開"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:118
+#, kde-format
+msgid "Default filename"
+msgstr "預設檔名"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:120
+#, kde-format
+msgid "Compression quality for lossy file formats"
+msgstr "有損檔案格式的壓縮品質"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:122
+#, kde-format
+msgid "Default save image format"
+msgstr "預設儲存圖片格式"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:124
+#, kde-format
+msgid "The filename template used when saving screenshots"
+msgstr "儲存螢幕截圖時用的檔案名稱樣本"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:126
+#, kde-format
+msgid "The path of the file saved last"
+msgstr "上次儲存的檔案路徑"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:128
+#, kde-format
+msgid "Last path used for \"save as\" action"
+msgstr "要為「儲存為」動作使用的上個路徑"
+
+#: /tmp/i18n/rc.cpp:138
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screenshots"
+msgstr "螢幕截圖"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:142
+#, kde-format
+msgctxt "part of default image filename template"
+msgid "Screenshot"
+msgstr "螢幕截圖"
+
+#: src/CaptureModeModel.cpp:157
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "矩形區域"
+
+#: src/CaptureModeModel.cpp:159
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "所有螢幕（縮放至同樣尺寸）"
+
+#: src/CaptureModeModel.cpp:161
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "目前的螢幕"
+
+#: src/CaptureModeModel.cpp:163
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "作用中視窗"
+
+#: src/CaptureModeModel.cpp:165
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "游標下的視窗"
+
+#: src/CaptureModeModel.cpp:167
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "所有螢幕"
+
+#: src/CaptureModeModel.cpp:169
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "全螢幕"
+
+#: src/CommandLineOptions.h:22
+#, kde-format
+msgid "Capture the entire desktop (default)"
+msgstr "擷取整個桌面（預設）"
+
+#: src/CommandLineOptions.h:26
+#, kde-format
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size"
+msgstr "與 -f/--fullscreen 一起使用時，擷取時將所有螢幕縮放到相同尺寸"
+
+#: src/CommandLineOptions.h:30
+#, kde-format
+msgid "Capture the current monitor"
+msgstr "擷取目前螢幕"
+
+#: src/CommandLineOptions.h:34
+#, kde-format
+msgid "Capture the active window"
+msgstr "擷取作用中的視窗"
+
+#: src/CommandLineOptions.h:37
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr "擷取目前在滑鼠游標下的視窗，包含彈出式選單的母視窗"
+
+#: src/CommandLineOptions.h:40
+#, kde-format
+msgid "Capture a rectangular region of the screen"
+msgstr "擷取螢幕的矩形區域"
+
+#: src/CommandLineOptions.h:44
+#, kde-format
+msgid "Launch Foton without taking a screenshot"
+msgstr "啟動 Foton 但不擷取螢幕"
+
+#: src/CommandLineOptions.h:48
+#, kde-format
+msgid "Start in GUI mode (default)"
+msgstr "以圖形化介面模式啟動（預設）"
+
+#: src/CommandLineOptions.h:52
+#, kde-format
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "拍一張螢幕截圖並離開而不顯示圖形介面"
+
+#: src/CommandLineOptions.h:56
+#, kde-format
+msgid ""
+"Start in the background with an icon in the system tray and wait for global "
+"shortcuts"
+msgstr "在背景啟動並在系統匣中顯示圖示，等待全域快捷鍵"
+
+#: src/CommandLineOptions.h:60
+#, kde-format
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "在背景模式下，擷取螢幕截圖後不要彈出通知"
+
+#: src/CommandLineOptions.h:64
+#, kde-format
+msgid "In background mode, save image to specified file"
+msgstr "在背景模式下，儲存圖片到指定的檔案"
+
+#: src/CommandLineOptions.h:69
+#, kde-format
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "在背景模式下，在擷取前的延遲（以毫秒計）"
+
+#: src/CommandLineOptions.h:74
+#, kde-format
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr "在背景模式下，將螢幕擷取複製至剪貼簿，除非有使用 -o 參數。"
+
+#: src/CommandLineOptions.h:78
+#, kde-format
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "在背景模式下，將螢幕截圖檔案路徑複製至剪貼簿"
+
+#: src/CommandLineOptions.h:82
+#, kde-format
+msgid ""
+"Starts a new GUI instance of Foton instead of passing the arguments to an "
+"already running instance"
+msgstr "啟動新的 Foton 圖形介面實體，而不是將參數傳給已在執行的實體"
+
+#: src/CommandLineOptions.h:86
+#, kde-format
+msgid "In background mode, include pointer in the screenshot"
+msgstr "在背景模式下，擷取螢幕時包含游標"
+
+#: src/CommandLineOptions.h:90
+#, kde-format
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "在背景模式下，截圖裡不要包含視窗裝飾"
+
+#: src/CommandLineOptions.h:92
+#, kde-format
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "在背景模式下，截圖裡不要包含陰影"
+
+#: src/CommandLineOptions.h:95
+#, kde-format
+msgid "Open and edit existing screenshot file"
+msgstr "打開並編輯現有螢幕截圖檔案"
+
+#: src/CommandLineOptions.h:98
+#, kde-format
+msgid "Accept region selection on click-and-release"
+msgstr "點選並釋放時接受區域選取"
+
+#: src/ExportManager.cpp:474
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter 無法寫入影像：%1"
+
+#: src/ExportManager.cpp:490
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr "無法儲存螢幕截圖，因為建立目錄失敗：<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:499
+#, kde-format
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "無法儲存螢幕截圖。開啟檔案時失敗。"
+
+#: src/ExportManager.cpp:503
+#, kde-format
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "無法儲存螢幕截圖。寫入檔案時失敗。"
+
+#: src/ExportManager.cpp:544
+#, kde-format
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr "無法儲存螢幕截圖。寫入暫存檔案時失敗。"
+
+#: src/ExportManager.cpp:551
+#, kde-format
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "無法儲存螢幕截圖。無效的儲存檔名。"
+
+#: src/ExportManager.cpp:556
+#, kde-format
+msgid "Cannot save screenshot. Saving to remote locations is not supported."
+msgstr "無法儲存螢幕截圖。不支援儲存到遠端位置。"
+
+#: src/ExportManager.cpp:641
+#, kde-format
+msgid "Cannot save an empty screenshot image."
+msgstr "無法儲存空白的螢幕截圖影像。"
+
+# 因為這些括號會在彼此旁邊，為了不要讓前後全半形括號不必要的無法對齊，我在這裡全部都用半形括號。
+# --Kisaragi
+#: src/ExportManager.cpp:786
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "日 (1–31)"
+
+#: src/ExportManager.cpp:787
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "日 (01–31)"
+
+#: src/ExportManager.cpp:788
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "日 (短名稱)"
+
+#: src/ExportManager.cpp:789
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "日 (長名稱)"
+
+#: src/ExportManager.cpp:790
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "月 (1–12)"
+
+#: src/ExportManager.cpp:791
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "月 (01–12)"
+
+#: src/ExportManager.cpp:792
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "月 (短名稱)"
+
+#: src/ExportManager.cpp:793
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "月 (長名稱)"
+
+#: src/ExportManager.cpp:794
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "年 (兩位數)"
+
+#: src/ExportManager.cpp:795
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "年 (四位數)"
+
+#: src/ExportManager.cpp:796
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "時 (0–23)"
+
+#: src/ExportManager.cpp:797
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "時 (00–23)"
+
+#: src/ExportManager.cpp:798
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "時 (1–12)"
+
+#: src/ExportManager.cpp:799
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "時 (01–12)"
+
+#: src/ExportManager.cpp:800
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "分 (0–59)"
+
+#: src/ExportManager.cpp:801
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "分 (00–59)"
+
+#: src/ExportManager.cpp:802
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "秒 (0–59)"
+
+#: src/ExportManager.cpp:803
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "秒 (00–59)"
+
+#: src/ExportManager.cpp:804
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "毫秒 (0–999)"
+
+#: src/ExportManager.cpp:806
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "毫秒 (000–999)"
+
+#: src/ExportManager.cpp:807
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:809
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:811
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM 或 am/pm (本地化)"
+
+#: src/ExportManager.cpp:813
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "時區 (短名稱)"
+
+#: src/ExportManager.cpp:814
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "時區偏移 (±0000)"
+
+#: src/ExportManager.cpp:815
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "時區偏移 (±00:00)"
+
+#: src/ExportManager.cpp:816
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "時區 (長名稱)"
+
+#: src/ExportManager.cpp:817
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Unix 時間 (秒)"
+
+#: src/ExportManager.cpp:818
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "視窗標題"
+
+#: src/ExportManager.cpp:819
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "順序編號，插入額外 '#' 字元來填滿長度"
+
+#: src/FotonCore.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "進行螢幕截圖時發生錯誤。"
+
+#: src/FotonCore.cpp:262
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr "螢幕截圖已複製至剪貼簿，且已存為 <link url=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:266
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr "此螢幕截圖已存為 <link url=\"%1\">%2</link>，其位置已複製到剪貼簿"
+
+#: src/FotonCore.cpp:271
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "螢幕截圖已儲存為 <link url=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:275
+#, kde-format
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "螢幕截圖已複製到剪貼簿。"
+
+#. i18nc because it doesn't work with the link replacement logic.
+#. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
+#.
+#: src/FotonCore.cpp:295
+#, kde-format
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "找到條碼：%1"
+
+#: src/FotonCore.cpp:299
+#, kde-format
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "找到內容為二進位資料的 QR code。"
+
+#: src/FotonCore.cpp:566
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr "--scaled 只能跟 -f/--fullscreen 一起使用，因此將被忽略"
+
+#: src/FotonCore.cpp:765
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr "螢幕截圖已儲存為「%2」中的「%1」，且此路徑已複製到剪貼簿。"
+
+#: src/FotonCore.cpp:769
+#, kde-format
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "螢幕截圖已儲存為您的圖片資料夾中的「%1」。"
+
+#: src/FotonCore.cpp:772
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "螢幕截圖已儲存為「%2」中的「%1」。"
+
+#: src/FotonCore.cpp:776
+#, kde-format
+msgid "A screenshot was saved to your clipboard."
+msgstr "螢幕截圖已儲存至您的剪貼簿。"
+
+#: src/FotonCore.cpp:785
+#, kde-format
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "開啟"
+
+#: src/FotonCore.cpp:803
+#, kde-format
+msgid "Annotate"
+msgstr "註記"
+
+#: src/FotonCore.cpp:806
+#, kde-format
+msgctxt "@action:button"
+msgid "Show in Folder"
+msgstr "在資料夾中顯示"
+
+#: src/FotonCore.cpp:1089
+#, kde-format
+msgctxt "@info"
+msgid "Could not restart Foton."
+msgstr "無法重新啟動 Foton。"
+
+#: src/Gui/FotonWindow.cpp:173
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: src/Gui/FotonWindow.cpp:176
+#, kde-format
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "未儲存"
+
+#: src/Gui/HelpMenu.cpp:40
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "說明"
+
+#: src/Gui/OptionsMenu.cpp:27
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "截圖設定"
+
+#: src/Gui/OptionsMenu.cpp:29
+#, kde-format
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "包含滑鼠游標"
+
+#: src/Gui/OptionsMenu.cpp:30
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "在螢幕截圖的圖片中顯示滑鼠游標"
+
+#: src/Gui/OptionsMenu.cpp:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "包含視窗標題列與邊框"
+
+#: src/Gui/OptionsMenu.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "顯示視窗標題列、最小化/最大化/關閉按鈕以及視窗邊框"
+
+#: src/Gui/OptionsMenu.cpp:47
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "包含視窗陰影"
+
+#: src/Gui/OptionsMenu.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "顯示視窗陰影"
+
+#: src/Gui/OptionsMenu.cpp:56
+#, kde-format
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "手動儲存或複製後離開"
+
+#: src/Gui/OptionsMenu.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit Foton after manually saving or copying the image"
+msgstr "手動儲存或複製影像後離開 Foton"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "截圖模式"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:318
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Drag to move this block"
+msgstr "拖曳以移動此區塊"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:329
+#, kde-format
+msgctxt "@info:placeholder a block of the file name"
+msgid "Text"
+msgstr "文字"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Any text. Use / to save the screenshot in a subfolder."
+msgstr "任意文字。使用 / 可將螢幕截圖儲存到子資料夾。"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:349
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Date"
+msgstr "日期"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:352
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Time"
+msgstr "時間"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:355
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Number"
+msgstr "編號"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The number of digits"
+msgstr "位數"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The format"
+msgstr "格式"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:390
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this block"
+msgstr "移除此區塊"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:496
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Left"
+msgstr "左移"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:499
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Right"
+msgstr "右移"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:503
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "移除"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:537
+#, kde-format
+msgctxt "@action:button add a block to the file name"
+msgid "Add"
+msgstr "新增"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:541
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a block to the file name"
+msgstr "在檔案名稱中新增區塊"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:544
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Text"
+msgstr "文字"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:547
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Date"
+msgstr "日期"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:550
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Time"
+msgstr "時間"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:556
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Sequential Number"
+msgstr "流水號"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:559
+#, kde-format
+msgctxt "@action:inmenu more blocks for the file name"
+msgid "More"
+msgstr "更多"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose a folder"
+msgstr "選擇資料夾"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Folder"
+msgstr "選擇資料夾"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+#, kde-format
+msgctxt "Settings category"
+msgid "General"
+msgstr "一般"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+#, kde-format
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "影像儲存"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:41
+#, kde-format
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "快捷鍵"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid "The new language will be used after Foton is restarted."
+msgstr "重新啟動 Foton 後將會使用新的語言。"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:122
+#, kde-format
+msgctxt "@title:window"
+msgid "Language Changed"
+msgstr "語言已變更"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:123
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr "立即重新啟動"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:124
+#, kde-format
+msgctxt "@action:button"
+msgid "Later"
+msgstr "稍後"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:37
+#, kde-format
+msgctxt "@info"
+msgid ""
+"These shortcuts work in all applications while Foton is running, including "
+"when it is running in the system tray."
+msgstr "Foton 執行時，這些快捷鍵在所有應用程式中都有效，包括在系統匣中執行時。"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Global Shortcuts"
+msgstr "全域快捷鍵"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:70
+#, kde-format
+msgctxt "@label %1 is the name of an action"
+msgid "%1:"
+msgstr "%1："
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:73
+#, kde-format
+msgctxt "@action:button restore the default shortcut"
+msgid "Default"
+msgstr "預設"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Restore the default: no shortcut"
+msgstr "還原預設：無快捷鍵"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:78
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid "Restore the default shortcut: %1"
+msgstr "還原預設快捷鍵：%1"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid "Click a field, then press the new key combination."
+msgstr "點選欄位，然後按下新的按鍵組合。"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:144
+#, kde-format
+msgctxt "@info %1 is a keyboard shortcut, %2 and %3 are the names of actions"
+msgid ""
+"The shortcut %1 is already used for \"%2\". Do you want to use it for \"%3\" "
+"instead?"
+msgstr "快捷鍵 %1 已用於「%2」。要改為用於「%3」嗎？"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:148
+#, kde-format
+msgctxt "@title:window"
+msgid "Shortcut Already Used"
+msgstr "快捷鍵已被使用"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "重新指派"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:215
+#, kde-format
+msgctxt "separator of a list of shortcuts"
+msgid ", "
+msgstr "、"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:212
+#, kde-format
+msgctxt "@info %2 is a list of keyboard shortcuts"
+msgid ""
+"This shortcut could not be registered because it is used by Windows or "
+"another application: %2"
+msgid_plural ""
+"These shortcuts could not be registered because they are used by Windows or "
+"other applications: %2"
+msgstr[0] "無法註冊下列快捷鍵，因為它們已被 Windows 或其他應用程式使用：%2"
+
+#: src/Gui/TextRecognitionWindow.cpp:206
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "複製"
+
+#: src/Gui/TextRecognitionWindow.cpp:210
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "全選"
+
+#: src/Gui/TextRecognitionWindow.cpp:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Recognized Text"
+msgstr "辨識出的文字"
+
+#: src/Gui/TextRecognitionWindow.cpp:381
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Language of the text:"
+msgstr "文字語言："
+
+#: src/Gui/TextRecognitionWindow.cpp:421
+#, kde-format
+msgctxt "@info"
+msgid "Select text on the screenshot or next to it to copy a part of it."
+msgstr "選取螢幕截圖上或旁邊的文字以複製其中一部分。"
+
+#: src/Gui/TextRecognitionWindow.cpp:425
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "複製"
+
+#: src/Gui/TextRecognitionWindow.cpp:426
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy All"
+msgstr "全部複製"
+
+#: src/Gui/TextRecognitionWindow.cpp:444
+#, kde-format
+msgctxt "@info"
+msgid "The text was copied to the clipboard."
+msgstr "文字已複製到剪貼簿。"
+
+#: src/Gui/TextRecognitionWindow.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Windows has no language installed for text recognition. Add a language in "
+"the Windows settings under Time & Language, Language & Region."
+msgstr ""
+"Windows 未安裝文字辨識用的語言。請在 Windows 設定的「時間與語言」>「語言與地"
+"區」中新增語言。"
+
+#: src/Gui/TextRecognitionWindow.cpp:512
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Recognizing text…"
+msgstr "正在辨識文字…"
+
+#: src/Gui/TextRecognitionWindow.cpp:537
+#, kde-format
+msgctxt "@info %1 is the reason"
+msgid "The text could not be recognized: %1"
+msgstr "無法辨識文字：%1"
+
+#: src/Gui/TextRecognitionWindow.cpp:541
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No text was found."
+msgstr "找不到文字。"
+
+#: src/Gui/TextRecognitionWindow.cpp:555
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Language Settings"
+msgstr "開啟語言設定"
+
+#: src/Gui/ViewerWindow.cpp:197
+#, kde-format
+msgctxt "@title:window"
+msgid "Screenshot Not Saved"
+msgstr "螢幕截圖未儲存"
+
+#: src/Gui/ViewerWindow.cpp:198
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The screenshot has not been saved. Are you sure you want to close it without "
+"saving?"
+msgstr "螢幕截圖尚未儲存。確定要不儲存就關閉嗎？"
+
+#: src/Gui/ViewerWindow.cpp:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "儲存"
+
+#: src/Gui/ViewerWindow.cpp:201
+#, kde-format
+msgctxt "@action:button"
+msgid "Close Without Saving"
+msgstr "不儲存並關閉"
+
+#: src/Gui/ViewerWindow.cpp:202
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#: src/Language.cpp:83
+#, kde-format
+msgctxt "@item:inlistbox interface language"
+msgid "System language"
+msgstr "系統語言"
+
+#: src/Main.cpp:83
+#, kde-format
+msgid "Foton"
+msgstr "Foton"
+
+#: src/Main.cpp:85
+#, kde-format
+msgid "Screenshot utility for Windows, a reworked port of KDE Spectacle"
+msgstr "Windows 螢幕截圖工具，KDE Spectacle 的重製移植版"
+
+#: src/Main.cpp:87
+#, kde-format
+msgid ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta and the Spectacle developers"
+msgstr ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta 與 Spectacle 開發者"
+
+#: src/Main.cpp:93
+#, kde-format
+msgid "Author of the Foton port"
+msgstr "Foton 移植版作者"
+
+#: src/Main.cpp:94
+#, kde-format
+msgid "Original author of Spectacle"
+msgstr "Spectacle 原作者"
+
+#: src/Main.cpp:95 src/Main.cpp:96
+#, kde-format
+msgid "Spectacle developer"
+msgstr "Spectacle 開發者"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Franklin Weng, Jeff Huang"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
+
+#: src/Platforms/ImagePlatformWindows.cpp:418
+#: src/Platforms/ImagePlatformWindows.cpp:449
+#, kde-format
+msgctxt "@info, %1 is the name of a screen"
+msgid "Could not capture the screen %1."
+msgstr "無法擷取螢幕 %1。"
+
+#: src/Platforms/ImagePlatformWindows.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid "The window is not visible on any screen."
+msgstr "該視窗在任何螢幕上都看不到。"
+
+#: src/Platforms/ImagePlatformWindows.cpp:512
+#, kde-format
+msgctxt "@info"
+msgid "Could not capture the window."
+msgstr "無法擷取視窗。"
+
+#: src/ShortcutActions.cpp:37
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton"
+msgstr "啟動 Foton"
+
+#: src/ShortcutActions.cpp:40
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "擷取整個桌面"
+
+#: src/ShortcutActions.cpp:43
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "擷取目前顯示器"
+
+#: src/ShortcutActions.cpp:46
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "擷取作用中視窗"
+
+#: src/ShortcutActions.cpp:49
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "擷取矩形區域"
+
+#: src/ShortcutActions.cpp:52
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "擷取游標下的視窗"
+
+#: src/ShortcutActions.cpp:55
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton without capturing"
+msgstr "啟動 Foton 但不擷取"
+
+#: src/TextRecognitionNull.cpp:31
+#, kde-format
+msgctxt "@info"
+msgid "Text recognition is not available on this system."
+msgstr "此系統無法使用文字辨識。"
+
+#: src/TextRecognitionWindows.cpp:80
+#, kde-format
+msgctxt "@info"
+msgid "There is no image."
+msgstr "沒有影像。"
+
+#: src/TextRecognitionWindows.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid "No language for text recognition is installed in Windows."
+msgstr "Windows 未安裝文字辨識用的語言。"
+
+#: src/TextRecognitionWindows.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An unknown error occurred."
+msgstr "發生未知的錯誤。"
+
+#: src/TrayIcon.cpp:49
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Foton…"
+msgstr "設定 Foton…"
+
+#: src/TrayIcon.cpp:58
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "離開"
+
+#: src/TrayIcon.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Foton\n"
+"Click to take a screenshot"
+msgstr ""
+"Foton\n"
+"點擊以擷取螢幕截圖"
+
+#: src/TrayIcon.cpp:85
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid ""
+"Foton\n"
+"Click or press %1 to take a screenshot"
+msgstr ""
+"Foton\n"
+"點擊或按下 %1 以擷取螢幕截圖"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "接受"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:56
+msgid "Stroke:"
+msgstr "筆畫："
+
+#. i18n uses so it doesn't matter that much
+#. unless someone decides to set the locale for a specific
+#. part of Foton in the future.
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:93
+msgid "Stroke Width"
+msgstr "筆畫寬度"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:126
+msgid "Stroke Color"
+msgstr "筆畫顏色"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:162
+msgid "Fill:"
+msgstr "填充："
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:174
+msgid "Fill Color"
+msgstr "填充顏色"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:213
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "強度："
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:232
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "效果的強度。"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:259
+msgid "Font:"
+msgstr "文字："
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:273
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:274
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:286
+msgid "Font Color"
+msgstr "文字顏色"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:325
+msgid "Number:"
+msgstr "編號："
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:344
+msgid "Number for number annotations"
+msgstr "數字註記的數字"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:372
+msgid "Shadow"
+msgstr "陰影"
+
+#: src/Gui/AnnotationsToolBarContents.qml:108
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "無"
+
+#: src/Gui/AnnotationsToolBarContents.qml:120
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "裁切"
+
+#: src/Gui/AnnotationsToolBarContents.qml:127
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "選取"
+
+#: src/Gui/AnnotationsToolBarContents.qml:136
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "手繪"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: 貼齊到直線"
+
+#: src/Gui/AnnotationsToolBarContents.qml:144
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "螢光筆"
+
+#: src/Gui/AnnotationsToolBarContents.qml:153
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "線段"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: 貼齊到 45 度步進"
+
+#: src/Gui/AnnotationsToolBarContents.qml:161
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "箭頭"
+
+#: src/Gui/AnnotationsToolBarContents.qml:170
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "矩形"
+
+#: src/Gui/AnnotationsToolBarContents.qml:172
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: 貼齊到對角移動\n"
+"Ctrl: 以中心為原點調整大小"
+
+#: src/Gui/AnnotationsToolBarContents.qml:179
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "橢圓"
+
+#: src/Gui/AnnotationsToolBarContents.qml:187
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "像素化"
+
+#: src/Gui/AnnotationsToolBarContents.qml:195
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "模糊化"
+
+#: src/Gui/AnnotationsToolBarContents.qml:203
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "文字"
+
+#: src/Gui/AnnotationsToolBarContents.qml:210
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "編號"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "取消"
+
+#: src/Gui/CaptureModeButtonsColumn.qml:31
+#: src/Gui/NewScreenshotToolButton.qml:15
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "取消（%1 秒）"
+
+#: src/Gui/CaptureOptions.qml:36
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "截圖設定"
+
+#: src/Gui/CaptureOverlay.qml:135
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "長按拖曳來進行選取。"
+
+#: src/Gui/CaptureSettingsColumn.qml:15
+msgid "Include mouse pointer"
+msgstr "包含滑鼠游標"
+
+#: src/Gui/CaptureSettingsColumn.qml:16
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "在螢幕截圖中顯示滑鼠游標。"
+
+#: src/Gui/CaptureSettingsColumn.qml:24
+msgid "Include window titlebar and borders"
+msgstr "包含視窗標題列與邊框"
+
+#: src/Gui/CaptureSettingsColumn.qml:25
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "擷取視窗時包括視窗標題列以及邊框。"
+
+#: src/Gui/CaptureSettingsColumn.qml:33
+msgid "Include window shadow"
+msgstr "包含視窗陰影"
+
+#: src/Gui/CaptureSettingsColumn.qml:34
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "擷取視窗時包括視窗陰影。"
+
+#: src/Gui/CaptureSettingsColumn.qml:43
+msgid "Quit after manual Save or Copy"
+msgstr "手動儲存或複製後離開"
+
+#: src/Gui/CaptureSettingsColumn.qml:44
+msgid "Quit Foton after manually saving or copying the image."
+msgstr "手動儲存或複製影像後離開 Foton。"
+
+#: src/Gui/CopyImageAction.qml:10
+msgctxt "@action"
+msgid "Copy"
+msgstr "複製"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "複製位置"
+
+#: src/Gui/DialogPage.qml:53
+msgid "Configure Foton…"
+msgstr "設定 Foton⋯"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "說明"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "拍一張螢幕截圖："
+
+#: src/Gui/DialogPage.qml:95
+msgctxt "@title:group"
+msgid "Options"
+msgstr "選項"
+
+#: src/Gui/EditAction.qml:10
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "編輯…"
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "說明"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "開啟包含資料夾"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "複製到剪貼簿"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "關閉"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "新的螢幕截圖"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "選項"
+
+#: src/Gui/RecognizeTextAction.qml:11
+msgctxt "@action"
+msgid "Recognize Text"
+msgstr "辨識文字"
+
+#: src/Gui/SaveAction.qml:10
+msgctxt "@action"
+msgid "Save"
+msgstr "儲存"
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "另存為…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "新的螢幕截圖"
+
+#: src/Gui/ScreenshotView.qml:226
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"點擊並拖曳來選取區域。\n"
+"雙擊選取區域來接受並裁切。\n"
+"右鍵點擊來清除選取。"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "擷取螢幕："
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "建立新選取區域矩形："
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "移動選取區域矩形："
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "縮放選取區域矩形："
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "重設選取區域："
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "取消："
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "釋放左鍵"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "點兩下"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter 鍵"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "拖出選取區域矩形"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift：放大鏡"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "在選取區域矩形內拖曳"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "方向鍵"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift：移動 1 個像素寬"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "拖曳控制點"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "方向鍵 + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift：縮放一個像素寬"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "右鍵"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Esc 鍵"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "復原"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "取消復原"
+
+#: src/Gui/ViewerPage.qml:66
+msgctxt "@info:tooltip"
+msgid ""
+"Recognize the text in the screenshot and show it in a window where it can be "
+"copied"
+msgstr "辨識螢幕截圖中的文字，並顯示在可複製的視窗中"
+
+#: src/Gui/ViewerPage.qml:174
+msgid "Zoom:"
+msgstr "縮放："
+
+#: src/Gui/ViewerPage.qml:188
+msgid "Image Zoom"
+msgstr "圖片縮放"
+
+#: src/Gui/ViewerPage.qml:221
+msgctxt "@action:button"
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: src/Gui/ViewerPage.qml:238
+msgctxt "@action:button"
+msgid "Zoom In"
+msgstr "放大"
+
+#: src/Gui/ViewerPage.qml:245
+msgctxt "@action:button"
+msgid "Fit to Window"
+msgstr "符合視窗大小"

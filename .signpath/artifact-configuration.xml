@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Artifact configuration for SignPath, see CODE_SIGNING.md.
+  The artifact is the "Foton-Windows" artifact of the GitHub workflow build-windows.yml.
+  Only the installer is signed. Foton-portable.7z is not, SignPath doesn't sign files in 7z archives.
+-->
+<artifact-configuration xmlns="http://signpath.io/artifact-configuration/v1">
+  <zip-file>
+    <pe-file path="Foton-Setup.exe">
+      <authenticode-sign />
+    </pe-file>
+  </zip-file>
+</artifact-configuration>

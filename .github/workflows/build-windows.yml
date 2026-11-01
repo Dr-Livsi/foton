@@ -1,0 +1,195 @@
+# Builds Foton for Windows with KDE Craft (MSVC, Qt 6) and publishes
+# Foton-Setup.exe and Foton-portable.7z.
+#
+# - Manual run (Actions → Build Windows → Run workflow): the files are
+#   attached to the run as an artifact.
+# - Pushing a tag like v1.0.0: the files are also published as a GitHub Release.
+
+name: Build Windows
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+env:
+  CRAFT_ROOT: C:\CraftRoot
+  PACKAGE_DIR: C:\foton-packages
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 355
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          # Exact version: the restored Craft installation stores the path to Python.
+          python-version: "3.12.10"
+
+      # Craft with Qt and KDE Frameworks installed. Restoring it saves about 15 minutes of installation.
+      # Any older entry is restored as well, Craft then only installs what is missing.
+      - name: Restore Craft
+        id: restore-craft
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            C:\CraftRoot
+            !C:\CraftRoot\build
+            !C:\CraftRoot\download
+            !C:\CraftRoot\tmp
+          key: craftroot-v1-${{ hashFiles('craft/foton/foton.py') }}
+          restore-keys: craftroot-v1-
+
+      - name: Install KDE Craft
+        shell: pwsh
+        if: steps.restore-craft.outputs.cache-matched-key == ''
+        run: |
+          New-Item -ItemType Directory -Force -Path $env:CRAFT_ROOT | Out-Null
+          . .github\scripts\Invoke-Logged.ps1
+          trap { Write-Host "::error title=Install KDE Craft::$_"; exit 1 }
+          # invent.kde.org shows a bot check to browser-like clients such as Invoke-WebRequest,
+          # so take the bootstrap script from the GitHub mirror of Craft.
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/KDE/craft/master/setup/CraftBootstrap.py" -OutFile CraftBootstrap.py
+
+          # Craft defaults to Visual Studio 2022. Use 2026 if the runner image only has that one.
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          $vs2022 = & $vswhere -version "[17.0,18.0)" -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
+          if ($vs2022) {
+            Write-Host "::notice::Using Visual Studio 2022: $vs2022"
+            Invoke-Logged "Install KDE Craft" python @("CraftBootstrap.py", "--prefix", $env:CRAFT_ROOT, "--use-defaults") -TimeoutMinutes 90
+          } else {
+            Write-Host "::notice::Visual Studio 2022 not found, using Visual Studio 2026"
+            # Answers: compiler = MSVC 2026, default short path, no Start menu entry, colored logs.
+            Invoke-Logged "Install KDE Craft" python @("CraftBootstrap.py", "--prefix", $env:CRAFT_ROOT) -InputText "2`n`n1`n0`n" -TimeoutMinutes 90
+          }
+
+      - name: Configure Craft
+        shell: pwsh
+        run: |
+          $ini = "$env:CRAFT_ROOT\etc\CraftSettings.ini"
+          $blueprints = "$env:GITHUB_WORKSPACE\craft"
+          $content = Get-Content $ini -Raw
+          # Let Craft find the Foton blueprint in this repository.
+          if ($content -notmatch '(?m)^Locations\s*=') {
+            $content = $content -replace '(?m)^\[Blueprints\]\r?$', "[Blueprints]`r`nLocations = $blueprints"
+            Set-Content -Path $ini -Value $content -Encoding UTF8
+          }
+          Get-Content $ini | Select-String -Pattern "ABI|Locations"
+
+      - name: Install dependencies
+        shell: pwsh
+        run: |
+          . .github\scripts\Invoke-Logged.ps1
+          Invoke-Logged "Install dependencies" python @("$env:CRAFT_ROOT\craft\bin\craft.py", "--install-deps", "foton") -TimeoutMinutes 240
+
+      - name: Save Craft
+        if: steps.restore-craft.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            C:\CraftRoot
+            !C:\CraftRoot\build
+            !C:\CraftRoot\download
+            !C:\CraftRoot\tmp
+          key: craftroot-v1-${{ hashFiles('craft/foton/foton.py') }}
+
+      - name: Build Foton
+        shell: pwsh
+        run: |
+          . .github\scripts\Invoke-Logged.ps1
+          Invoke-Logged "Build Foton" python @("$env:CRAFT_ROOT\craft\bin\craft.py", "--src-dir", $env:GITHUB_WORKSPACE, "foton") -TimeoutMinutes 60
+
+      - name: Package Foton
+        shell: pwsh
+        run: |
+          . .github\scripts\Invoke-Logged.ps1
+          $craft = "$env:CRAFT_ROOT\craft\bin\craft.py"
+          $common = @(
+            $craft,
+            "--src-dir", "$env:GITHUB_WORKSPACE",
+            "--options", "[Packager]Destination=$env:PACKAGE_DIR",
+            "--options", "[Packager]PackageDebugSymbols=False"
+          )
+          # NSIS installer
+          Invoke-Logged "Package installer" python ($common + "--options", "[Packager]PackageType=NullsoftInstallerPackager", "--package", "foton") -TimeoutMinutes 60
+          # Portable 7z archive, in a folder of its own: the installer leaves a 7z archive with the same name.
+          $portableDir = "$env:PACKAGE_DIR\portable"
+          Invoke-Logged "Package portable archive" python ($common + "--options", "[Packager]Destination=$portableDir", "--options", "[Packager]PackageType=PortablePackager", "--options", "[Packager]7ZipArchiveType=7z", "--package", "foton") -TimeoutMinutes 60
+
+          Get-ChildItem $env:PACKAGE_DIR, $portableDir
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          $setup = Get-ChildItem $env:PACKAGE_DIR -Filter *.exe | Select-Object -First 1
+          $portable = Get-ChildItem $portableDir -Filter *.7z | Select-Object -First 1
+          if (-not $setup -or -not $portable) { throw "Packages were not created" }
+          Copy-Item $setup.FullName dist\Foton-Setup.exe
+          Copy-Item $portable.FullName dist\Foton-portable.7z
+          Get-ChildItem dist
+
+      # What takes the space in the package, shown in the annotations of the run.
+      - name: Package contents
+        shell: pwsh
+        continue-on-error: true
+        run: .github\scripts\Show-PackageContents.ps1 -Archive dist\Foton-portable.7z -Setup dist\Foton-Setup.exe
+
+      # Start Foton from the package, to make sure that nothing it needs was left out.
+      - name: Test package
+        shell: pwsh
+        run: .github\scripts\Test-Package.ps1 -Archive dist\Foton-portable.7z
+
+      - name: Upload artifact
+        id: upload
+        uses: actions/upload-artifact@v5
+        with:
+          name: Foton-Windows
+          path: dist/*
+
+      # Code signing with the free certificate of SignPath Foundation, see CODE_SIGNING.md.
+      # Runs only after the repository variable SIGNPATH_ORGANIZATION_ID and the secret SIGNPATH_API_TOKEN
+      # have been set up. Releases need to be approved in SignPath, other builds use the test certificate.
+      - name: Sign with SignPath
+        if: vars.SIGNPATH_ORGANIZATION_ID != ''
+        uses: signpath/github-action-submit-signing-request@v1
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG || 'foton' }}
+          signing-policy-slug: ${{ startsWith(github.ref, 'refs/tags/') && 'release-signing' || 'test-signing' }}
+          github-artifact-id: ${{ steps.upload.outputs.artifact-id }}
+          wait-for-completion: true
+          wait-for-completion-timeout-in-seconds: 3600
+          output-artifact-directory: dist-signed
+
+      - name: Upload signed artifact
+        if: vars.SIGNPATH_ORGANIZATION_ID != ''
+        uses: actions/upload-artifact@v5
+        with:
+          name: Foton-Windows-signed
+          path: dist-signed/*
+
+      - name: Upload Craft logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v5
+        with:
+          name: craft-logs
+          path: |
+            C:\CraftRoot\build\**\*.log
+            C:\CraftRoot\build\**\CMakeFiles\CMakeOutput.log
+            C:\CraftRoot\build\**\CMakeFiles\CMakeError.log
+          if-no-files-found: ignore
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          # The signed files once code signing is set up.
+          files: ${{ vars.SIGNPATH_ORGANIZATION_ID != '' && 'dist-signed/*' || 'dist/*' }}
+          generate_release_notes: true

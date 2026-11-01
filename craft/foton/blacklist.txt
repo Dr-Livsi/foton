@@ -1,0 +1,21 @@
+# The Breeze icons are used from icontheme.rcc on Windows
+bin/data/icons/.*
+
+# KIconThemes has its own icon engine
+bin/iconengines/qsvgicon.*
+
+# duplicated ICU libraries
+bin/icudt\.dll
+bin/icuin\.dll
+bin/icuuc\.dll
+bin/icuio\.dll
+bin/icutu\.dll
+bin/icutest\.dll
+
+# development files
+.*\.lib
+.*\.pdb
+include/.*
+lib/cmake/.*
+lib/pkgconfig/.*
+share/doc/.*

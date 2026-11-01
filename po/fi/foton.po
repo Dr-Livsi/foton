@@ -1,0 +1,2025 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2015, 2016, 2022, 2024 Lasse Liehu <lasse.liehu@gmail.com>
+# SPDX-FileCopyrightText: 2024 Kimmo Kujansuu <mrkujansuu@gmail.com>
+# SPDX-FileCopyrightText: 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Tommi Nieminen <translator@legisign.org>
+# Tommi Nieminen <translator@legisign.org>, 2024.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 17:32+0000\n"
+"PO-Revision-Date: 2026-08-25 10:12+0300\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:2
+#, kde-format
+msgid "Language and Startup"
+msgstr "Kieli ja käynnistys"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:4
+#, kde-format
+msgid "Language:"
+msgstr "Kieli:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:6
+#, kde-format
+msgid "A new language is used after Foton is restarted."
+msgstr "Uusi kieli otetaan käyttöön, kun Foton käynnistetään uudelleen."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:8
+#, kde-format
+msgid "Start Foton automatically with Windows"
+msgstr "Käynnistä Foton automaattisesti Windowsin kanssa"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:10
+#, kde-format
+msgid "Keep running in the system tray after the windows are closed"
+msgstr "Jatka ilmoitusalueella ikkunoiden sulkemisen jälkeen"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:12
+#, kde-format
+msgid "The screenshot keys only work while Foton is running."
+msgstr "Kuvakaappausnäppäimet toimivat vain, kun Foton on käynnissä."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:14
+#, kde-format
+msgid "Taking Screenshots"
+msgstr "Kuvakaappausten ottaminen"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:16
+#, kde-format
+msgid "When Foton is started:"
+msgstr "Kun Foton käynnistetään:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:18
+#, kde-format
+msgid "Select a region"
+msgstr "Valitse alue"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:20
+#, kde-format
+msgid "Take a screenshot of the whole screen"
+msgstr "Kaappaa koko näyttö"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:22
+#, kde-format
+msgid "Use the last capture mode"
+msgstr "Käytä viimeisintä kaappaustilaa"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:24
+#, kde-format
+msgid "Only open the Foton window"
+msgstr "Avaa vain Fotonin ikkuna"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:26
+#, kde-format
+msgid "When Foton is already running:"
+msgstr "Kun Foton on jo käynnissä:"
+
+#. #-#-#-#-#  cpp.pot (PACKAGE VERSION)  #-#-#-#-#
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:28 src/Gui/CaptureOptions.qml:17
+#, kde-format
+msgid "Take a new screenshot"
+msgstr "Ota uusi ruutukaappaus"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:30
+#, kde-format
+msgid "Open a new Foton window"
+msgstr "Foton avaa uuden ikkunan"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:32
+#, kde-format
+msgid "Bring the Foton window to the front"
+msgstr "Tuo Fotonin ikkuna eteen"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:34
+#, kde-format
+msgid "After Taking a Screenshot"
+msgstr "Kuvakaappauksen jälkeen"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:36
+#, kde-format
+msgid "Save the screenshot to the default folder"
+msgstr "Tallenna kuvakaappaus oletuskansioon"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:38
+#, kde-format
+msgid "Clipboard:"
+msgstr "Leikepöytä:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:40
+#, kde-format
+msgid "Do not copy anything"
+msgstr "Älä kopioi mitään"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:42
+#, kde-format
+msgid "Copy the image"
+msgstr "Kopioi kuva"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:44
+#, kde-format
+msgid "Copy the file location"
+msgstr "Kopioi tiedoston sijainti"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:46
+#, kde-format
+msgid "Editing"
+msgstr "Muokkaus"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:48
+#, kde-format
+msgid "Add a shadow to shapes, arrows and text"
+msgstr "Lisää varjo muotoihin, nuoliin ja tekstiin"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:50
+#, kde-format
+msgid ""
+"Used for every new screenshot. The shadow can still be turned on or off "
+"while editing."
+msgstr ""
+"Käytetään jokaisessa uudessa kuvakaappauksessa. Varjon voi silti kytkeä "
+"päälle tai pois muokatessa."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:52
+#, kde-format
+msgid "Region Selection"
+msgstr "Alueen valinta"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:54
+#, kde-format
+msgid "Lighten the area around the selection instead of darkening it"
+msgstr "Vaalenna valinnan ympäristö tummentamisen sijaan"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:56
+#, kde-format
+msgid "Take the screenshot as soon as the mouse button is released"
+msgstr "Ota kuvakaappaus heti, kun hiiren painike vapautetaan"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:58
+#, kde-format
+msgid "Magnifier:"
+msgstr "Suurennuslasi:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:60
+#, kde-format
+msgid "Never"
+msgstr "Ei koskaan"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:62
+#, kde-format
+msgid "Always"
+msgstr "Aina"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:64
+#, kde-format
+msgid "While holding Shift"
+msgstr "Painettaessa vaihtonäppäintä"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:66
+#, kde-format
+msgid "Folder"
+msgstr "Kansio"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:68
+#, kde-format
+msgid "Save Location:"
+msgstr "Tallennuspaikka:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:70
+#, kde-format
+msgid "Image Quality"
+msgstr "Kuvan laatu"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:72
+#, kde-format
+msgid "Compression Quality:"
+msgstr "Pakkauksen laatu:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:74
+#, kde-format
+msgid "For lossy image formats like JPEG"
+msgstr "Häviöllisille kuvamuodoille (kuten JPEG)"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:76
+#, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:78
+#, kde-format
+msgid "File Name"
+msgstr "Tiedostonimi"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:80
+#, kde-format
+msgid "Filename:"
+msgstr "Tiedostonimi:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:82
+#, kde-format
+msgid "Drag the blocks to change their order."
+msgstr "Muuta lohkojen järjestystä vetämällä niitä."
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:84
+#, kde-format
+msgctxt "@label:listbox the file format of images"
+msgid "Format:"
+msgstr "Muoto:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:86
+#, kde-format
+msgctxt "@label an example of the file name"
+msgid "Example:"
+msgstr "Esimerkki:"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:88
+#, kde-format
+msgid "What to do when Foton is launched"
+msgstr "Mitä tehdään kun Foton käynnistyy"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:90
+#, kde-format
+msgid ""
+"What should happen if print key is pressed when Foton is already running"
+msgstr ""
+"Mitä tapahtuu, jos kaappausnäppäintä painetaan ja Foton on jo käynnissä"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:92
+#, kde-format
+msgid "Save screenshot automatically after it is taken"
+msgstr "Tallenna otettu kuva automaattisesti"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:94 /tmp/i18n/rc.cpp:98
+#, kde-format
+msgid "Clipboard action which should be executed after the screenshot is taken"
+msgstr ""
+"Leikepöydän toiminto, joka suoritetaan kuvakaappauksen ottamisen jälkeen"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:96
+#, kde-format
+msgid "Whether to use a light color mask in the region selection dialog"
+msgstr "Käytetäänkö alueen valintaikkunassa vaaleaa värimaskia"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:100
+#, kde-format
+msgid ""
+"Whether the screenshot should be captured after selecting the region and "
+"releasing the mouse"
+msgstr ""
+"Otetaanko kuvakaappaus heti alueen valinnan jälkeen, kun hiiren painike on "
+"vapautettu"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:102
+#, kde-format
+msgid "Whether shapes, arrows and text drawn on a new screenshot have a shadow"
+msgstr "Onko uuden kuvakaappauksen muodoilla, nuolilla ja tekstillä varjo"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:104
+#, kde-format
+msgid ""
+"Keep running in the system tray after all windows are closed, so that global "
+"shortcuts work"
+msgstr ""
+"Jatka ilmoitusalueella kaikkien ikkunoiden sulkemisen jälkeen, jotta yleiset "
+"pikanäppäimet toimivat"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:106
+#, kde-format
+msgid "Start in the system tray when logging in to Windows"
+msgstr "Käynnistä ilmoitusalueelle Windowsiin kirjauduttaessa"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:108
+#, kde-format
+msgid "The language of the text in screenshots, used to recognize the text"
+msgstr "Kuvakaappausten tekstin kieli, jota käytetään tekstin tunnistamiseen"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:110
+#, kde-format
+msgid "Whether the mouse cursor is included in the screenshot"
+msgstr "Sisällytetäänkö hiiriosoitin kaappaukseen"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:112
+#, kde-format
+msgid "Whether the window decorations are included in the screenshot"
+msgstr "Sisällytetäänkö ikkunakoristeet kaappaukseen"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:114
+#, kde-format
+msgid "Whether the window shadow is included in the screenshot"
+msgstr "Sisällytetäänkö ikkunan varjo osana kaappausta"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:116
+#, kde-format
+msgid "Quit after saving or copying an image"
+msgstr "Lopeta, kun kuva on tallennettu tai kopioitu"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:118
+#, kde-format
+msgid "Default filename"
+msgstr "Oletustiedostonimi"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:120
+#, kde-format
+msgid "Compression quality for lossy file formats"
+msgstr "Häviöllisten tiedostomuotojen pakkauslaatu"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:122
+#, kde-format
+msgid "Default save image format"
+msgstr "Oletustiedostomuoto"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:124
+#, kde-format
+msgid "The filename template used when saving screenshots"
+msgstr "Tiedoston nimimalli, jota käytetään kuvakaappauksia tallennettaessa"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:126
+#, kde-format
+msgid "The path of the file saved last"
+msgstr "Viimeksi tallennetun tiedoston sijainti"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:128
+#, kde-format
+msgid "Last path used for \"save as\" action"
+msgstr "Viimeisin ”Tallenna nimellä” sijainti"
+
+#: /tmp/i18n/rc.cpp:138
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screenshots"
+msgstr "Kuvakaappaukset"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:142
+#, kde-format
+msgctxt "part of default image filename template"
+msgid "Screenshot"
+msgstr "Kuvakaappaus"
+
+# HUOM! Tätä jonoa käytetään otsikkona kahdessa paikassa, pääikkunan ja perusasetusten osion selitteenä, vaikka jälkimmäisen olisi järkevämpää olla jotain muuta
+#: src/CaptureModeModel.cpp:157
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Suorakulmainen alue"
+
+#: src/CaptureModeModel.cpp:159
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Kaikki näytöt (skaalattuna samaan kokoon)"
+
+#: src/CaptureModeModel.cpp:161
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Nykyinen näyttö"
+
+#: src/CaptureModeModel.cpp:163
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Aktiivinen ikkuna"
+
+#: src/CaptureModeModel.cpp:165
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Osoittimen alla oleva ikkuna"
+
+#: src/CaptureModeModel.cpp:167
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Kaikki näytöt"
+
+#: src/CaptureModeModel.cpp:169
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Koko näyttö"
+
+#: src/CommandLineOptions.h:22
+#, kde-format
+msgid "Capture the entire desktop (default)"
+msgstr "Kaappaa koko työpöytä (oletus)"
+
+#: src/CommandLineOptions.h:26
+#, kde-format
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size"
+msgstr ""
+"Yhdessä -f/--fullscreen-valitsimen kanssa kaappaa kaikki näytöt skaalattuna "
+"samankokoisiksi"
+
+#: src/CommandLineOptions.h:30
+#, kde-format
+msgid "Capture the current monitor"
+msgstr "Kaappaa nykyinen näyttö"
+
+#: src/CommandLineOptions.h:34
+#, kde-format
+msgid "Capture the active window"
+msgstr "Kaappaa aktiivinen ikkuna"
+
+#: src/CommandLineOptions.h:37
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Kaappaa osoittimen alla oleva ikkuna mukaan lukien ikkunat, joihin "
+"ponnahdusvalikot kuuluvat"
+
+#: src/CommandLineOptions.h:40
+#, kde-format
+msgid "Capture a rectangular region of the screen"
+msgstr "Kaappaa suorakulmainen alue näytöstä"
+
+#: src/CommandLineOptions.h:44
+#, kde-format
+msgid "Launch Foton without taking a screenshot"
+msgstr "Käynnistä Foton kaappaamatta kuvaa"
+
+#: src/CommandLineOptions.h:48
+#, kde-format
+msgid "Start in GUI mode (default)"
+msgstr "Käynnistä graafiseen käyttöliittymään (oletus)"
+
+#: src/CommandLineOptions.h:52
+#, kde-format
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Kaappaa kuva ja lopeta ikkunaa avaamatta"
+
+#: src/CommandLineOptions.h:56
+#, kde-format
+msgid ""
+"Start in the background with an icon in the system tray and wait for global "
+"shortcuts"
+msgstr ""
+"Käynnistä taustalle kuvakkeella ilmoitusalueelle ja odota yleisiä "
+"pikanäppäimiä"
+
+#: src/CommandLineOptions.h:60
+#, kde-format
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "Tausta-ajossa älä näytä ilmoitusta, kun kaappaus otetaan"
+
+#: src/CommandLineOptions.h:64
+#, kde-format
+msgid "In background mode, save image to specified file"
+msgstr "Tallenna tausta-ajossa kuva annettuun tiedostoon"
+
+#: src/CommandLineOptions.h:69
+#, kde-format
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "Viivytä tausta-ajossa kuvan kaappaamista (aika millisekunteina)"
+
+#: src/CommandLineOptions.h:74
+#, kde-format
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"Kopioi tausta-ajossa ruutukaappaus leikepöydälle, ellei -o-valitsinta ole "
+"annettu."
+
+#: src/CommandLineOptions.h:78
+#, kde-format
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "Kopioi tausta-ajossa ruutukaappaustiedoston sijainti leikepöydälle"
+
+#: src/CommandLineOptions.h:82
+#, kde-format
+msgid ""
+"Starts a new GUI instance of Foton instead of passing the arguments to an "
+"already running instance"
+msgstr ""
+"Käynnistää Fotonista uuden käyttöliittymällisen instanssin sen sijaan, että "
+"välittäisi parametrit jo käynnissä olevalle instanssille"
+
+#: src/CommandLineOptions.h:86
+#, kde-format
+msgid "In background mode, include pointer in the screenshot"
+msgstr "Sisällytä tausta-ajossa kuvakaappaukseen osoitin"
+
+#: src/CommandLineOptions.h:90
+#, kde-format
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "Sisällytä tausta-ajossa kuvakaappaukseen ikkunakoristeet"
+
+#: src/CommandLineOptions.h:92
+#, kde-format
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "Jätä tausta-ajossa varjot pois kuvakaappauksesta"
+
+#: src/CommandLineOptions.h:95
+#, kde-format
+msgid "Open and edit existing screenshot file"
+msgstr "Avaa ruutukaappaustiedosto ja muokkaa sitä"
+
+#: src/CommandLineOptions.h:98
+#, kde-format
+msgid "Accept region selection on click-and-release"
+msgstr "Hyväksy alueen valinta napsauttamalla ja vapauttamalla"
+
+#: src/ExportManager.cpp:474
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter ei voi kirjoittaa kuvaa: %1"
+
+#: src/ExportManager.cpp:490
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Ruutukaappausta ei voitu tallentaa, koska kansion luonti epäonnistui:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:499
+#, kde-format
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Kuvakaappausta ei voida tallentaa. Virhe avattaessa tiedostoa."
+
+#: src/ExportManager.cpp:503
+#, kde-format
+msgid "Cannot save screenshot. Error while writing file."
+msgstr ""
+"Kuvakaappauksen tallentaminen epäonnistui. Tiedostoa tallennettaessa sattui "
+"virhe."
+
+#: src/ExportManager.cpp:544
+#, kde-format
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Kuvakaappauksen tallentaminen epäonnistui. Paikalliseen väliaikaistiedostoon "
+"kirjoitettaessa sattui virhe."
+
+#: src/ExportManager.cpp:551
+#, kde-format
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Kuvakaappauksen tallennus epäonnistui. Tiedostonimi on virheellinen."
+
+#: src/ExportManager.cpp:556
+#, kde-format
+msgid "Cannot save screenshot. Saving to remote locations is not supported."
+msgstr ""
+"Kuvakaappausta ei voi tallentaa. Tallentaminen etäsijainteihin ei ole tuettu."
+
+#: src/ExportManager.cpp:641
+#, kde-format
+msgid "Cannot save an empty screenshot image."
+msgstr "Tyhjää kuvakaappausta ei voi tallentaa."
+
+#: src/ExportManager.cpp:786
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Päivä (1–31)"
+
+#: src/ExportManager.cpp:787
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Päivä (01–31)"
+
+#: src/ExportManager.cpp:788
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Päivä (lyhyt nimi)"
+
+#: src/ExportManager.cpp:789
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Päivä (pitkä nimi)"
+
+#: src/ExportManager.cpp:790
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Kuukausi (1–12)"
+
+#: src/ExportManager.cpp:791
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Kuukausi (01–12)"
+
+#: src/ExportManager.cpp:792
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Kuukausi (lyhyt nimi)"
+
+#: src/ExportManager.cpp:793
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Kuukausi (pitkä nimi)"
+
+#: src/ExportManager.cpp:794
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Vuosi (kaksinumeroinen)"
+
+#: src/ExportManager.cpp:795
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Vuosi (nelinumeroinen)"
+
+#: src/ExportManager.cpp:796
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Tunti (0–23)"
+
+#: src/ExportManager.cpp:797
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Tunti (00–23)"
+
+#: src/ExportManager.cpp:798
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Tunti (1–12)"
+
+#: src/ExportManager.cpp:799
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Tunti (01–12)"
+
+#: src/ExportManager.cpp:800
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minuutti (0–59)"
+
+#: src/ExportManager.cpp:801
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minuutti (00–59)"
+
+#: src/ExportManager.cpp:802
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Sekunti (0–59)"
+
+#: src/ExportManager.cpp:803
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Sekunti (00–59)"
+
+#: src/ExportManager.cpp:804
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Millisekunti (0–999)"
+
+#: src/ExportManager.cpp:806
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Millisekunti (000–999)"
+
+#: src/ExportManager.cpp:807
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "ap/ip"
+
+#: src/ExportManager.cpp:809
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "ap/ip"
+
+#: src/ExportManager.cpp:811
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AP/IP vai ap/ip (kotoistettu)"
+
+#: src/ExportManager.cpp:813
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Aikavyöhyke (lyhyt nimi)"
+
+#: src/ExportManager.cpp:814
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Aikavyöhykkeen korjaus (±0000)"
+
+#: src/ExportManager.cpp:815
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Aikavyöhykkeen korjaus (±00:00)"
+
+#: src/ExportManager.cpp:816
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Aikavyöhyke (pitkä nimi)"
+
+#: src/ExportManager.cpp:817
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Sekuntia Unix-ajan alusta"
+
+#: src/ExportManager.cpp:818
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Ikkunan otsikko"
+
+#: src/ExportManager.cpp:819
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Juokseva numerointi (täytetty lisäämällä ”#”-merkkejä)"
+
+#: src/FotonCore.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "Kuvakaappausta otettaessa tapahtui virhe."
+
+#: src/FotonCore.cpp:262
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"Kuvakaappaus kopioitiin leikepöydälle ja tallennettiin nimellä <link "
+"href=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:266
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"Kuvakaappaus tallennettiin nimelle <link href=\"%1\">%2</link>, ja sen "
+"sijainti kopioitiin leikepöydälle"
+
+#: src/FotonCore.cpp:271
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "Kuvakaappaus tallennettiin nimelle <link href=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:275
+#, kde-format
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "Kuvakaappaus kopioitiin leikepöydälle."
+
+#. i18nc because it doesn't work with the link replacement logic.
+#. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
+#.
+#: src/FotonCore.cpp:295
+#, kde-format
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Löytyi koodi: %1"
+
+#: src/FotonCore.cpp:299
+#, kde-format
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Löytyi binaaria sisältävä QR-koodi."
+
+#: src/FotonCore.cpp:566
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+"--scaled sallitaan vain yhdessä -f/--fullscreen-valitsimen kanssa ja "
+"sivuutetaan"
+
+#: src/FotonCore.cpp:765
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Ruutukaappaus tallennettiin kansioon ”%2” nimellä ”%1” ja sen sijainti "
+"kopioitiin leikepöydälle."
+
+#: src/FotonCore.cpp:769
+#, kde-format
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Kuvakaappaus tallennettiin Kuvat-kansioon nimellä ”%1”."
+
+#: src/FotonCore.cpp:772
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Kuvakaappaus tallennettiin kansioon ”%2” nimellä ”%1”."
+
+#: src/FotonCore.cpp:776
+#, kde-format
+msgid "A screenshot was saved to your clipboard."
+msgstr "Kuvakaappaus tallennettiin leikepöydälle."
+
+#: src/FotonCore.cpp:785
+#, kde-format
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Avaa"
+
+#: src/FotonCore.cpp:803
+#, kde-format
+msgid "Annotate"
+msgstr "Merkitse"
+
+#: src/FotonCore.cpp:806
+#, kde-format
+msgctxt "@action:button"
+msgid "Show in Folder"
+msgstr "Näytä kansiossa"
+
+#: src/FotonCore.cpp:1089
+#, kde-format
+msgctxt "@info"
+msgid "Could not restart Foton."
+msgstr "Fotonia ei voitu käynnistää uudelleen."
+
+#: src/Gui/FotonWindow.cpp:173
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekunti"
+msgstr[1] "%1 sekuntia"
+
+#: src/Gui/FotonWindow.cpp:176
+#, kde-format
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Ei tallennettu"
+
+#: src/Gui/HelpMenu.cpp:40
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ohje"
+
+#: src/Gui/OptionsMenu.cpp:27
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Kuvakaappausasetukset"
+
+#: src/Gui/OptionsMenu.cpp:29
+#, kde-format
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Kaappaa myös hiiriosoitin"
+
+#: src/Gui/OptionsMenu.cpp:30
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Näytä kaapatussa kuvassa hiiriosoitin"
+
+#: src/Gui/OptionsMenu.cpp:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Kaappaa myös otsikkopalkki ja reunat"
+
+# On turha luetella painikkeita tässä, kun Plasma antaa käyttäjän vaihtaa niitä!
+#: src/Gui/OptionsMenu.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "Näytä ikkunan otsikkopalkki, sen painikkeet ja reunus"
+
+#: src/Gui/OptionsMenu.cpp:47
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Kaappaa ikkunan varjo"
+
+#: src/Gui/OptionsMenu.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Näytä ikkunan varjostus"
+
+#: src/Gui/OptionsMenu.cpp:56
+#, kde-format
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Lopeta tallennuksen tai kopioinnin jälkeen"
+
+#: src/Gui/OptionsMenu.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit Foton after manually saving or copying the image"
+msgstr "Lopeta Foton kuvan tallentamisen tai kopioimisen jälkeen"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Kuvakaappaustilat"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:318
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Drag to move this block"
+msgstr "Siirrä tätä lohkoa vetämällä"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:329
+#, kde-format
+msgctxt "@info:placeholder a block of the file name"
+msgid "Text"
+msgstr "Teksti"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Any text. Use / to save the screenshot in a subfolder."
+msgstr "Mikä tahansa teksti. Merkki / tallentaa kuvakaappauksen alikansioon."
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:349
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:352
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Time"
+msgstr "Aika"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:355
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Number"
+msgstr "Numero"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The number of digits"
+msgstr "Numeroiden määrä"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The format"
+msgstr "Muoto"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:390
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this block"
+msgstr "Poista tämä lohko"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:496
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Left"
+msgstr "Siirrä vasemmalle"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:499
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Right"
+msgstr "Siirrä oikealle"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:503
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "Poista"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:537
+#, kde-format
+msgctxt "@action:button add a block to the file name"
+msgid "Add"
+msgstr "Lisää"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:541
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a block to the file name"
+msgstr "Lisää lohko tiedostonimeen"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:544
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Text"
+msgstr "Teksti"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:547
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:550
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Time"
+msgstr "Aika"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:556
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Sequential Number"
+msgstr "Juokseva numero"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:559
+#, kde-format
+msgctxt "@action:inmenu more blocks for the file name"
+msgid "More"
+msgstr "Muut"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose a folder"
+msgstr "Valitse kansio"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Folder"
+msgstr "Valitse kansio"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+#, kde-format
+msgctxt "Settings category"
+msgid "General"
+msgstr "Yleiset"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+#, kde-format
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Kuvan tallennus"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:41
+#, kde-format
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid "The new language will be used after Foton is restarted."
+msgstr "Uusi kieli otetaan käyttöön, kun Foton käynnistetään uudelleen."
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:122
+#, kde-format
+msgctxt "@title:window"
+msgid "Language Changed"
+msgstr "Kieli muutettu"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:123
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr "Käynnistä uudelleen nyt"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:124
+#, kde-format
+msgctxt "@action:button"
+msgid "Later"
+msgstr "Myöhemmin"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:37
+#, kde-format
+msgctxt "@info"
+msgid ""
+"These shortcuts work in all applications while Foton is running, including "
+"when it is running in the system tray."
+msgstr ""
+"Nämä pikanäppäimet toimivat kaikissa sovelluksissa, kun Foton on käynnissä, "
+"myös ilmoitusalueella."
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Global Shortcuts"
+msgstr "Yleiset pikanäppäimet"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:70
+#, kde-format
+msgctxt "@label %1 is the name of an action"
+msgid "%1:"
+msgstr "%1:"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:73
+#, kde-format
+msgctxt "@action:button restore the default shortcut"
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Restore the default: no shortcut"
+msgstr "Palauta oletus: ei pikanäppäintä"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:78
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid "Restore the default shortcut: %1"
+msgstr "Palauta oletuspikanäppäin: %1"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid "Click a field, then press the new key combination."
+msgstr "Napsauta kenttää ja paina sitten uutta näppäinyhdistelmää."
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:144
+#, kde-format
+msgctxt "@info %1 is a keyboard shortcut, %2 and %3 are the names of actions"
+msgid ""
+"The shortcut %1 is already used for \"%2\". Do you want to use it for \"%3\" "
+"instead?"
+msgstr ""
+"Pikanäppäin %1 on jo käytössä toiminnolle ”%2”. Haluatko käyttää sitä sen "
+"sijaan toiminnolle ”%3”?"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:148
+#, kde-format
+msgctxt "@title:window"
+msgid "Shortcut Already Used"
+msgstr "Pikanäppäin on jo käytössä"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "Määritä uudelleen"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:215
+#, kde-format
+msgctxt "separator of a list of shortcuts"
+msgid ", "
+msgstr ", "
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:212
+#, kde-format
+msgctxt "@info %2 is a list of keyboard shortcuts"
+msgid ""
+"This shortcut could not be registered because it is used by Windows or "
+"another application: %2"
+msgid_plural ""
+"These shortcuts could not be registered because they are used by Windows or "
+"other applications: %2"
+msgstr[0] ""
+"Pikanäppäimiä ei voitu rekisteröidä, koska Windows tai muut sovellukset "
+"käyttävät niitä: %2"
+msgstr[1] ""
+"Pikanäppäimiä ei voitu rekisteröidä, koska Windows tai muut sovellukset "
+"käyttävät niitä: %2"
+
+#: src/Gui/TextRecognitionWindow.cpp:206
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopioi"
+
+#: src/Gui/TextRecognitionWindow.cpp:210
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+#: src/Gui/TextRecognitionWindow.cpp:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Recognized Text"
+msgstr "Tunnistettu teksti"
+
+#: src/Gui/TextRecognitionWindow.cpp:381
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Language of the text:"
+msgstr "Tekstin kieli:"
+
+#: src/Gui/TextRecognitionWindow.cpp:421
+#, kde-format
+msgctxt "@info"
+msgid "Select text on the screenshot or next to it to copy a part of it."
+msgstr ""
+"Valitse tekstiä kuvakaappauksesta tai sen vierestä kopioidaksesi osan siitä."
+
+#: src/Gui/TextRecognitionWindow.cpp:425
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Kopioi"
+
+#: src/Gui/TextRecognitionWindow.cpp:426
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy All"
+msgstr "Kopioi kaikki"
+
+#: src/Gui/TextRecognitionWindow.cpp:444
+#, kde-format
+msgctxt "@info"
+msgid "The text was copied to the clipboard."
+msgstr "Teksti kopioitiin leikepöydälle."
+
+#: src/Gui/TextRecognitionWindow.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Windows has no language installed for text recognition. Add a language in "
+"the Windows settings under Time & Language, Language & Region."
+msgstr ""
+"Windowsiin ei ole asennettu kieltä tekstin tunnistamista varten. Lisää kieli "
+"Windowsin asetuksissa kohdassa ”Aika ja kieli” > ”Kieli ja alue”."
+
+#: src/Gui/TextRecognitionWindow.cpp:512
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Recognizing text…"
+msgstr "Tunnistetaan tekstiä…"
+
+#: src/Gui/TextRecognitionWindow.cpp:537
+#, kde-format
+msgctxt "@info %1 is the reason"
+msgid "The text could not be recognized: %1"
+msgstr "Tekstiä ei voitu tunnistaa: %1"
+
+#: src/Gui/TextRecognitionWindow.cpp:541
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No text was found."
+msgstr "Tekstiä ei löytynyt."
+
+#: src/Gui/TextRecognitionWindow.cpp:555
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Language Settings"
+msgstr "Avaa kieliasetukset"
+
+#: src/Gui/ViewerWindow.cpp:197
+#, kde-format
+msgctxt "@title:window"
+msgid "Screenshot Not Saved"
+msgstr "Kuvakaappausta ei tallennettu"
+
+#: src/Gui/ViewerWindow.cpp:198
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The screenshot has not been saved. Are you sure you want to close it without "
+"saving?"
+msgstr ""
+"Kuvakaappausta ei ole tallennettu. Haluatko varmasti sulkea sen "
+"tallentamatta?"
+
+#: src/Gui/ViewerWindow.cpp:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/Gui/ViewerWindow.cpp:201
+#, kde-format
+msgctxt "@action:button"
+msgid "Close Without Saving"
+msgstr "Sulje tallentamatta"
+
+#: src/Gui/ViewerWindow.cpp:202
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Peru"
+
+#: src/Language.cpp:83
+#, kde-format
+msgctxt "@item:inlistbox interface language"
+msgid "System language"
+msgstr "Järjestelmän kieli"
+
+# pmap: =:gen=Spectaclen:
+# pmap: =:elat=Spectaclesta:
+#: src/Main.cpp:83
+#, kde-format
+msgid "Foton"
+msgstr "Foton"
+
+#: src/Main.cpp:85
+#, kde-format
+msgid "Screenshot utility for Windows, a reworked port of KDE Spectacle"
+msgstr "Kuvakaappaustyökalu Windowsille, uudistettu käännös KDE Spectaclesta"
+
+#: src/Main.cpp:87
+#, kde-format
+msgid ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta and the Spectacle developers"
+msgstr ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta ja Spectaclen kehittäjät"
+
+#: src/Main.cpp:93
+#, kde-format
+msgid "Author of the Foton port"
+msgstr "Foton-käännöksen tekijä"
+
+#: src/Main.cpp:94
+#, kde-format
+msgid "Original author of Spectacle"
+msgstr "Spectaclen alkuperäinen tekijä"
+
+#: src/Main.cpp:95 src/Main.cpp:96
+#, kde-format
+msgid "Spectacle developer"
+msgstr "Spectaclen kehittäjä"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lasse Liehu, Tommi Nieminen, Kimmo Kujansuu"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lasse.liehu@gmail.com, translator@legisign.org, mrkujansuu@gmail.com"
+
+#: src/Platforms/ImagePlatformWindows.cpp:418
+#: src/Platforms/ImagePlatformWindows.cpp:449
+#, kde-format
+msgctxt "@info, %1 is the name of a screen"
+msgid "Could not capture the screen %1."
+msgstr "Näyttöä %1 ei voitu kaapata."
+
+#: src/Platforms/ImagePlatformWindows.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid "The window is not visible on any screen."
+msgstr "Ikkuna ei näy millään näytöllä."
+
+#: src/Platforms/ImagePlatformWindows.cpp:512
+#, kde-format
+msgctxt "@info"
+msgid "Could not capture the window."
+msgstr "Ikkunaa ei voitu kaapata."
+
+#: src/ShortcutActions.cpp:37
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton"
+msgstr "Käynnistä Foton"
+
+#: src/ShortcutActions.cpp:40
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Kaappaa koko työpöytä"
+
+#: src/ShortcutActions.cpp:43
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Kaappaa nykyinen näyttö"
+
+#: src/ShortcutActions.cpp:46
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Kaappaa aktiivinen ikkuna"
+
+#: src/ShortcutActions.cpp:49
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Kaappaa suorakulmainen alue"
+
+#: src/ShortcutActions.cpp:52
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Kaappaa osoittimen alla oleva ikkuna"
+
+#: src/ShortcutActions.cpp:55
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton without capturing"
+msgstr "Käynnistä Foton kaappaamatta kuvaa"
+
+#: src/TextRecognitionNull.cpp:31
+#, kde-format
+msgctxt "@info"
+msgid "Text recognition is not available on this system."
+msgstr "Tekstintunnistus ei ole käytettävissä tässä järjestelmässä."
+
+#: src/TextRecognitionWindows.cpp:80
+#, kde-format
+msgctxt "@info"
+msgid "There is no image."
+msgstr "Kuvaa ei ole."
+
+#: src/TextRecognitionWindows.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid "No language for text recognition is installed in Windows."
+msgstr "Windowsiin ei ole asennettu kieltä tekstin tunnistamista varten."
+
+#: src/TextRecognitionWindows.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An unknown error occurred."
+msgstr "Tapahtui tuntematon virhe."
+
+#: src/TrayIcon.cpp:49
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Foton…"
+msgstr "Fotonin asetukset…"
+
+#: src/TrayIcon.cpp:58
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Lopeta"
+
+#: src/TrayIcon.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Foton\n"
+"Click to take a screenshot"
+msgstr ""
+"Foton\n"
+"Ota kuvakaappaus napsauttamalla"
+
+#: src/TrayIcon.cpp:85
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid ""
+"Foton\n"
+"Click or press %1 to take a screenshot"
+msgstr ""
+"Foton\n"
+"Ota kuvakaappaus napsauttamalla tai painamalla %1"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Hyväksy"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:56
+msgid "Stroke:"
+msgstr "Viiva:"
+
+#. i18n uses so it doesn't matter that much
+#. unless someone decides to set the locale for a specific
+#. part of Foton in the future.
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1 px"
+msgstr[1] "%1 px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:93
+msgid "Stroke Width"
+msgstr "Viivan paksuus"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:126
+msgid "Stroke Color"
+msgstr "Viivan väri"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:162
+msgid "Fill:"
+msgstr "Täyttö:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:174
+msgid "Fill Color"
+msgstr "Täyttöväri"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:213
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Voimakkuus:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:232
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Tehosteen voimakkuus."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:259
+msgid "Font:"
+msgstr "Fontti:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:273
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1 pt"
+msgstr[1] "%2 %3 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:274
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1 pt"
+msgstr[1] "%2 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:286
+msgid "Font Color"
+msgstr "Fonttiväri"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:325
+msgid "Number:"
+msgstr "Numero:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:344
+msgid "Number for number annotations"
+msgstr "Numeeristen merkintöjen numero"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:372
+msgid "Shadow"
+msgstr "Varjo"
+
+#: src/Gui/AnnotationsToolBarContents.qml:108
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Ei mitään"
+
+#: src/Gui/AnnotationsToolBarContents.qml:120
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Rajaa"
+
+#: src/Gui/AnnotationsToolBarContents.qml:127
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Valitse"
+
+#: src/Gui/AnnotationsToolBarContents.qml:136
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Vapaa käsi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Vaihto: kiinnity suoriin viivoihin"
+
+#: src/Gui/AnnotationsToolBarContents.qml:144
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Korostus"
+
+#: src/Gui/AnnotationsToolBarContents.qml:153
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Viiva"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Vaihto: kiinnity 45° askelin"
+
+#: src/Gui/AnnotationsToolBarContents.qml:161
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Nuoli"
+
+# HUOM! Tätä jonoa käytetään otsikkona kahdessa paikassa, pääikkunan ja perusasetusten osion selitteenä, vaikka jälkimmäisen olisi järkevämpää olla jotain muuta
+#: src/Gui/AnnotationsToolBarContents.qml:170
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Nelikulmio"
+
+#: src/Gui/AnnotationsToolBarContents.qml:172
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Vaihto: kiinnity poikittaisliikkeisiin\n"
+"\n"
+"Ctrl: muuta kokoa keskeltä"
+
+#: src/Gui/AnnotationsToolBarContents.qml:179
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Soikio"
+
+#: src/Gui/AnnotationsToolBarContents.qml:187
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pikselöi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:195
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Sumenna"
+
+#: src/Gui/AnnotationsToolBarContents.qml:203
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Teksti"
+
+#: src/Gui/AnnotationsToolBarContents.qml:210
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Numero"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Peru"
+
+#: src/Gui/CaptureModeButtonsColumn.qml:31
+#: src/Gui/NewScreenshotToolButton.qml:15
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Peru (%1 sekunti)"
+msgstr[1] "Peru (%1 sekuntia)"
+
+#: src/Gui/CaptureOptions.qml:36
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Kuvakaappausasetukset"
+
+#: src/Gui/CaptureOverlay.qml:135
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Valitse napsauttamalla ja vetämällä."
+
+#: src/Gui/CaptureSettingsColumn.qml:15
+msgid "Include mouse pointer"
+msgstr "Kaappaa myös hiiriosoitin"
+
+#: src/Gui/CaptureSettingsColumn.qml:16
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Näytä kaappauskuvassa hiiriosoitin."
+
+#: src/Gui/CaptureSettingsColumn.qml:24
+msgid "Include window titlebar and borders"
+msgstr "Kaappaa myös otsikkopalkki ja reunat"
+
+#: src/Gui/CaptureSettingsColumn.qml:25
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "Näytä ikkunaa kaapattaessa ikkunan otsikkopalkki ja reuna."
+
+#: src/Gui/CaptureSettingsColumn.qml:33
+msgid "Include window shadow"
+msgstr "Kaappaa myös ikkunan varjo"
+
+#: src/Gui/CaptureSettingsColumn.qml:34
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Näytä ikkunan varjo, kun otat ikkunasta kuvakaappauksen."
+
+#: src/Gui/CaptureSettingsColumn.qml:43
+msgid "Quit after manual Save or Copy"
+msgstr "Lopeta tallennuksen tai kopioinnin jälkeen"
+
+#: src/Gui/CaptureSettingsColumn.qml:44
+msgid "Quit Foton after manually saving or copying the image."
+msgstr "Lopeta Foton kuvan tallentamisen tai kopioimisen jälkeen."
+
+#: src/Gui/CopyImageAction.qml:10
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopioi"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Kopioi sijainti"
+
+#: src/Gui/DialogPage.qml:53
+msgid "Configure Foton…"
+msgstr "Fotonn asetukset…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Ohje"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Ota kuvakaappaus:"
+
+#: src/Gui/DialogPage.qml:95
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Valinnat"
+
+#: src/Gui/EditAction.qml:10
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Muokkaa…"
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Ohje"
+
+# Tässä "yläkansio” on hassu, kun tarkoitus on avata ei ylempää vaan juuri tiedoston sisältävä kansio.
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Avaa yläkansio"
+
+# *** TARKISTA: Oletan, että tämä jatkaa otsikkoa ”Press screenshot key to:”
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Kopioi leikepöydälle"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Sulje"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Uusi kuvakaappaus"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Valinnat"
+
+#: src/Gui/RecognizeTextAction.qml:11
+msgctxt "@action"
+msgid "Recognize Text"
+msgstr "Tunnista teksti"
+
+#: src/Gui/SaveAction.qml:10
+msgctxt "@action"
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Tallenna nimellä…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Uusi kuvakaappaus"
+
+#: src/Gui/ScreenshotView.qml:226
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Valitse napsauttamalla ja vetämällä.\n"
+"Hyväksy ja rajaa valinta kaksoisnapsauttamalla.\n"
+"Tyhjennä valinta oikealla painikkeella."
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Ota kuvakaappaus:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Luo uusi valintakulmio:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Siirrä valintakulmiota:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Muuta valintakulmion kokoa:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Tyhjennä valinta:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Peru:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Vapauta vasen napsautus"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Kaksoisnapsautus"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Vedä valintakulmion ulkopuolella"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Vaihto: Suurennuslasi"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Vedä valintakulmion sisällä"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Nuolinäppäimet"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Vaihto: Siirry 1 kuvapisteen askelin"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Vetokahvat"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Nuolinäppäimet + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Vaihto: Muuta kokoa 1 kuvapisteen askelin"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Oikea napsautus"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Seuraavan merkin erikoismerkityksen poisto"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1 × %2"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Kumoa"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Tee uudelleen"
+
+#: src/Gui/ViewerPage.qml:66
+msgctxt "@info:tooltip"
+msgid ""
+"Recognize the text in the screenshot and show it in a window where it can be "
+"copied"
+msgstr ""
+"Tunnista kuvakaappauksen teksti ja näytä se ikkunassa, josta sen voi kopioida"
+
+#: src/Gui/ViewerPage.qml:174
+msgid "Zoom:"
+msgstr "Lähennys:"
+
+#: src/Gui/ViewerPage.qml:188
+msgid "Image Zoom"
+msgstr "Kuvan lähennys"
+
+#: src/Gui/ViewerPage.qml:221
+msgctxt "@action:button"
+msgid "Zoom Out"
+msgstr "Loitonna"
+
+#: src/Gui/ViewerPage.qml:238
+msgctxt "@action:button"
+msgid "Zoom In"
+msgstr "Lähennä"
+
+#: src/Gui/ViewerPage.qml:245
+msgctxt "@action:button"
+msgid "Fit to Window"
+msgstr "Sovita ikkunaan"

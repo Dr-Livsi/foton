@@ -1,0 +1,2033 @@
+# Copyright (C) 2023 This file is copyright:
+# This file is distributed under the same license as the spectacle package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2015, 2016, 2017, 2018.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Matjaž Jeran <matjaz.jeran@amis.net>
+# SPDX-FileCopyrightText: 2024 Jure Repinc <jlp@holodeck1.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 17:32+0000\n"
+"PO-Revision-Date: 2026-08-01 08:12+0200\n"
+"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
+"n%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:2
+#, kde-format
+msgid "Language and Startup"
+msgstr "Jezik in zagon"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:4
+#, kde-format
+msgid "Language:"
+msgstr "Jezik:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:6
+#, kde-format
+msgid "A new language is used after Foton is restarted."
+msgstr "Novi jezik bo uporabljen po ponovnem zagonu programa Foton."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:8
+#, kde-format
+msgid "Start Foton automatically with Windows"
+msgstr "Samodejno zaženi Foton skupaj z okoljem Windows"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:10
+#, kde-format
+msgid "Keep running in the system tray after the windows are closed"
+msgstr "Po zaprtju oken nadaljuj z delovanjem v sistemski vrstici"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:12
+#, kde-format
+msgid "The screenshot keys only work while Foton is running."
+msgstr "Tipke za zaslonske posnetke delujejo samo, ko se Foton izvaja."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:14
+#, kde-format
+msgid "Taking Screenshots"
+msgstr "Zajemanje zaslonskih posnetkov"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:16
+#, kde-format
+msgid "When Foton is started:"
+msgstr "Ob zagonu programa Foton:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:18
+#, kde-format
+msgid "Select a region"
+msgstr "Izberi območje"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:20
+#, kde-format
+msgid "Take a screenshot of the whole screen"
+msgstr "Zajemi celoten zaslon"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:22
+#, kde-format
+msgid "Use the last capture mode"
+msgstr "Uporabi zadnji način zajemanja"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:24
+#, kde-format
+msgid "Only open the Foton window"
+msgstr "Samo odpri okno programa Foton"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:26
+#, kde-format
+msgid "When Foton is already running:"
+msgstr "Če se Foton že izvaja:"
+
+#. #-#-#-#-#  cpp.pot (PACKAGE VERSION)  #-#-#-#-#
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:28 src/Gui/CaptureOptions.qml:17
+#, kde-format
+msgid "Take a new screenshot"
+msgstr "Zajemi novo zaslonsko sliko"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:30
+#, kde-format
+msgid "Open a new Foton window"
+msgstr "Odpri novo okno s programom Foton"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:32
+#, kde-format
+msgid "Bring the Foton window to the front"
+msgstr "Postavi okno programa Foton v ospredje"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:34
+#, kde-format
+msgid "After Taking a Screenshot"
+msgstr "Po zajemu zaslonskega posnetka"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:36
+#, kde-format
+msgid "Save the screenshot to the default folder"
+msgstr "Shrani posnetek v privzeto mapo"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:38
+#, kde-format
+msgid "Clipboard:"
+msgstr "Odložišče:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:40
+#, kde-format
+msgid "Do not copy anything"
+msgstr "Ne kopiraj ničesar"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:42
+#, kde-format
+msgid "Copy the image"
+msgstr "Kopiraj sliko"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:44
+#, kde-format
+msgid "Copy the file location"
+msgstr "Kopiraj mesto datoteke"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:46
+#, kde-format
+msgid "Editing"
+msgstr "Urejanje"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:48
+#, kde-format
+msgid "Add a shadow to shapes, arrows and text"
+msgstr "Dodaj senco oblikam, puščicam in besedilu"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:50
+#, kde-format
+msgid ""
+"Used for every new screenshot. The shadow can still be turned on or off "
+"while editing."
+msgstr ""
+"Uporablja se za vsak nov posnetek. Senco je med urejanjem še vedno mogoče "
+"vklopiti ali izklopiti."
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:52
+#, kde-format
+msgid "Region Selection"
+msgstr "Izbira območja"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:54
+#, kde-format
+msgid "Lighten the area around the selection instead of darkening it"
+msgstr "Osvetli območje okoli izbora namesto zatemnitve"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:56
+#, kde-format
+msgid "Take the screenshot as soon as the mouse button is released"
+msgstr "Zajemi posnetek takoj, ko je gumb miške spuščen"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:58
+#, kde-format
+msgid "Magnifier:"
+msgstr "Povečevalno steklo:"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:60
+#, kde-format
+msgid "Never"
+msgstr "Nikoli"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:62
+#, kde-format
+msgid "Always"
+msgstr "Vedno"
+
+#. i18n: file: src/Gui/SettingsDialog/GeneralOptions.ui
+#: /tmp/i18n/rc.cpp:64
+#, kde-format
+msgid "While holding Shift"
+msgstr "Medtem ko držite dvigalko"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:66
+#, kde-format
+msgid "Folder"
+msgstr "Mapa"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:68
+#, kde-format
+msgid "Save Location:"
+msgstr "Mesto shranjevanja:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:70
+#, kde-format
+msgid "Image Quality"
+msgstr "Kakovost slike"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:72
+#, kde-format
+msgid "Compression Quality:"
+msgstr "Kakovost stiskanja:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:74
+#, kde-format
+msgid "For lossy image formats like JPEG"
+msgstr "Za nenatančne slikovne formate kot npr. JPEG"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:76
+#, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:78
+#, kde-format
+msgid "File Name"
+msgstr "Ime datoteke"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:80
+#, kde-format
+msgid "Filename:"
+msgstr "Ime datoteke:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:82
+#, kde-format
+msgid "Drag the blocks to change their order."
+msgstr "Povlecite bloke, da spremenite njihov vrstni red."
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:84
+#, kde-format
+msgctxt "@label:listbox the file format of images"
+msgid "Format:"
+msgstr "Oblika:"
+
+#. i18n: file: src/Gui/SettingsDialog/ImageSaveOptions.ui
+#: /tmp/i18n/rc.cpp:86
+#, kde-format
+msgctxt "@label an example of the file name"
+msgid "Example:"
+msgstr "Primer:"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:88
+#, kde-format
+msgid "What to do when Foton is launched"
+msgstr "Kaj narediti, ko je Foton pognan"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:90
+#, kde-format
+msgid ""
+"What should happen if print key is pressed when Foton is already running"
+msgstr ""
+"Kaj naj bi se zgodilo, če pritisnete tipko za tiskanje, ko je Foton že v teku"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:92
+#, kde-format
+msgid "Save screenshot automatically after it is taken"
+msgstr "Samodejno shrani zaslonsko sliko, ko je zajeta"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:94 /tmp/i18n/rc.cpp:98
+#, kde-format
+msgid "Clipboard action which should be executed after the screenshot is taken"
+msgstr "Dejanje odložišča, ki naj se izvede po zajemu zaslonske slike"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:96
+#, kde-format
+msgid "Whether to use a light color mask in the region selection dialog"
+msgstr ""
+"Ali naj se uporablja svetlo barvno masko v pogovornem oknu izbire območja"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:100
+#, kde-format
+msgid ""
+"Whether the screenshot should be captured after selecting the region and "
+"releasing the mouse"
+msgstr ""
+"Ali naj se zaslonska slika zajame po izbiri območja in po sprostitvi gumba "
+"miške"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:102
+#, kde-format
+msgid "Whether shapes, arrows and text drawn on a new screenshot have a shadow"
+msgstr "Ali imajo oblike, puščice in besedilo na novem posnetku senco"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:104
+#, kde-format
+msgid ""
+"Keep running in the system tray after all windows are closed, so that global "
+"shortcuts work"
+msgstr ""
+"Po zaprtju vseh oken nadaljuj z delovanjem v sistemski vrstici, da delujejo "
+"globalne bližnjice"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:106
+#, kde-format
+msgid "Start in the system tray when logging in to Windows"
+msgstr "Ob prijavi v Windows zaženi v sistemski vrstici"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:108
+#, kde-format
+msgid "The language of the text in screenshots, used to recognize the text"
+msgstr ""
+"Jezik besedila na posnetkih zaslona, ki se uporablja za prepoznavanje "
+"besedila"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:110
+#, kde-format
+msgid "Whether the mouse cursor is included in the screenshot"
+msgstr "Ali je miškina kazalka vključena na zaslonsko sliko"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:112
+#, kde-format
+msgid "Whether the window decorations are included in the screenshot"
+msgstr "Ali okraski oken vključeni na zaslonsko sliko"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:114
+#, kde-format
+msgid "Whether the window shadow is included in the screenshot"
+msgstr "Ali je senca okna vključena na zaslonsko sliko"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:116
+#, kde-format
+msgid "Quit after saving or copying an image"
+msgstr "Zapusti program po shranjevanju ali kopiranju slike"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:118
+#, kde-format
+msgid "Default filename"
+msgstr "Privzeto ime datoteke"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:120
+#, kde-format
+msgid "Compression quality for lossy file formats"
+msgstr "Kakovost stiskanja za formate z aproksimativnim stiskanjem"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:122
+#, kde-format
+msgid "Default save image format"
+msgstr "Privzeti format shranjenih slik"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:124
+#, kde-format
+msgid "The filename template used when saving screenshots"
+msgstr ""
+"Predloga imena datoteke, ki se uporablja pri shranjevanju zaslonskih slik"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:126
+#, kde-format
+msgid "The path of the file saved last"
+msgstr "Pot zadnje shranjene datoteke"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:128
+#, kde-format
+msgid "Last path used for \"save as\" action"
+msgstr "Zadnja uporabljena pot pri akciji Shrani kot"
+
+#: /tmp/i18n/rc.cpp:138
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screenshots"
+msgstr "Zaslonske slike"
+
+#. i18n: file: src/Gui/SettingsDialog/foton.kcfg
+#: /tmp/i18n/rc.cpp:142
+#, kde-format
+msgctxt "part of default image filename template"
+msgid "Screenshot"
+msgstr "Zaslonska slika"
+
+#: src/CaptureModeModel.cpp:157
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Pravokotno območje"
+
+#: src/CaptureModeModel.cpp:159
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Vsi zasloni (umerjeni na isto velikost)"
+
+#: src/CaptureModeModel.cpp:161
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Trenutni zaslon"
+
+#: src/CaptureModeModel.cpp:163
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Dejavno okno"
+
+#: src/CaptureModeModel.cpp:165
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Okno pod kazalko"
+
+#: src/CaptureModeModel.cpp:167
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Vsi zasloni"
+
+#: src/CaptureModeModel.cpp:169
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Celotni zaslon"
+
+#: src/CommandLineOptions.h:22
+#, kde-format
+msgid "Capture the entire desktop (default)"
+msgstr "Zajemi celotno namizje (privzeto)"
+
+#: src/CommandLineOptions.h:26
+#, kde-format
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size"
+msgstr ""
+"Pri uporabi z -f/--fullscreen zajame vse zaslone, umerjene na enako velikost"
+
+#: src/CommandLineOptions.h:30
+#, kde-format
+msgid "Capture the current monitor"
+msgstr "Zajemi trenutni zaslon"
+
+#: src/CommandLineOptions.h:34
+#, kde-format
+msgid "Capture the active window"
+msgstr "Zajemi dejavno okno"
+
+#: src/CommandLineOptions.h:37
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Zajemi okno, ki je trenutno pod kazalko, vključno z nadrejenimi okni "
+"pojavnih menijev"
+
+#: src/CommandLineOptions.h:40
+#, kde-format
+msgid "Capture a rectangular region of the screen"
+msgstr "Zajemi pravokotno območje zaslona"
+
+#: src/CommandLineOptions.h:44
+#, kde-format
+msgid "Launch Foton without taking a screenshot"
+msgstr "Zaženi Foton ne da bi zajel zaslonsko sliko"
+
+#: src/CommandLineOptions.h:48
+#, kde-format
+msgid "Start in GUI mode (default)"
+msgstr "Zaženi v načinu z grafičnim vmesnikom (privzeto)"
+
+#: src/CommandLineOptions.h:52
+#, kde-format
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Zajemi zaslonsko sliko in končaj brez prikaza grafičnega vmesnika"
+
+#: src/CommandLineOptions.h:56
+#, kde-format
+msgid ""
+"Start in the background with an icon in the system tray and wait for global "
+"shortcuts"
+msgstr ""
+"Zaženi v ozadju z ikono v sistemski vrstici in čakaj na globalne bližnjice"
+
+#: src/CommandLineOptions.h:60
+#, kde-format
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr ""
+"Ob delovanju programa v ozadju ne prikazuj obvestil ob zajemu zaslonske slike"
+
+#: src/CommandLineOptions.h:64
+#, kde-format
+msgid "In background mode, save image to specified file"
+msgstr "Ob delovanju v ozadju shrani sliko v navedeno datoteko"
+
+#: src/CommandLineOptions.h:69
+#, kde-format
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr ""
+"Ob delovanju v ozadju zakasni pred zajemom zaslonske slike (v milisekundah)"
+
+#: src/CommandLineOptions.h:74
+#, kde-format
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"Ob delovanju v ozadju skopiraj zaslonsko sliko na odložišče, razen če ni "
+"uporabljena tudi možnost -o."
+
+#: src/CommandLineOptions.h:78
+#, kde-format
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr ""
+"Ob delovanju v ozadju skopiraj pot datoteke zaslonske slike na odložišče"
+
+#: src/CommandLineOptions.h:82
+#, kde-format
+msgid ""
+"Starts a new GUI instance of Foton instead of passing the arguments to an "
+"already running instance"
+msgstr ""
+"Zažene nov primerek programa Foton z vmesnikom, namesto da argumente "
+"posreduje že zagnanemu primerku"
+
+#: src/CommandLineOptions.h:86
+#, kde-format
+msgid "In background mode, include pointer in the screenshot"
+msgstr "Ob delovanju v ozadju vključi kazalko na zaslonsko sliko"
+
+#: src/CommandLineOptions.h:90
+#, kde-format
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "Ob delovanju v ozadju izključi okraske oken z zaslonske slike"
+
+#: src/CommandLineOptions.h:92
+#, kde-format
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "Ob delovanju v ozadju izključi sence oken z zaslonske slike"
+
+#: src/CommandLineOptions.h:95
+#, kde-format
+msgid "Open and edit existing screenshot file"
+msgstr "Odpri in uredi obstoječo datoteko zaslonske slike"
+
+#: src/CommandLineOptions.h:98
+#, kde-format
+msgid "Accept region selection on click-and-release"
+msgstr "Sprejmi izbiro regije ob kliku in spuščanju"
+
+#: src/ExportManager.cpp:474
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter ne more pisati slike: %1"
+
+#: src/ExportManager.cpp:490
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Zaslonske slike ni bilo mogoče shraniti, ker ustvarjanje mape ni uspelo: <nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:499
+#, kde-format
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Zaslonske slike ni mogoče shraniti. Napaka med odpiranjem datoteke."
+
+#: src/ExportManager.cpp:503
+#, kde-format
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Zaslonske slike ni mogoče shraniti. Napaka med pisanjem v datoteko."
+
+#: src/ExportManager.cpp:544
+#, kde-format
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Zaslonske slike ni mogoče shraniti. Napaka med pisanjem v krajevno začasno "
+"datoteko."
+
+#: src/ExportManager.cpp:551
+#, kde-format
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr ""
+"Zaslonske slike ni mogoče shraniti. Ime datoteke za shranjevanje ni veljavno."
+
+#: src/ExportManager.cpp:556
+#, kde-format
+msgid "Cannot save screenshot. Saving to remote locations is not supported."
+msgstr ""
+"Posnetka ni mogoče shraniti. Shranjevanje na oddaljena mesta ni podprto."
+
+#: src/ExportManager.cpp:641
+#, kde-format
+msgid "Cannot save an empty screenshot image."
+msgstr "Ni mogoče shraniti prazne zaslonske slike."
+
+#: src/ExportManager.cpp:786
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Dan (1–31)"
+
+#: src/ExportManager.cpp:787
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Dan (01–31)"
+
+#: src/ExportManager.cpp:788
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Dan (kratko ime)"
+
+#: src/ExportManager.cpp:789
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Dan (dolgo ime)"
+
+#: src/ExportManager.cpp:790
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Mesec (1-12)"
+
+#: src/ExportManager.cpp:791
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Mesec (01-12)"
+
+#: src/ExportManager.cpp:792
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Mesec (kratko ime)"
+
+#: src/ExportManager.cpp:793
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Mesec (dolgo ime)"
+
+#: src/ExportManager.cpp:794
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Leto (2 cifri)"
+
+#: src/ExportManager.cpp:795
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Leto (4 cifre)"
+
+#: src/ExportManager.cpp:796
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Ura (0-23)"
+
+#: src/ExportManager.cpp:797
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Ura (00-23)"
+
+#: src/ExportManager.cpp:798
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Ura (1-12)"
+
+#: src/ExportManager.cpp:799
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Ura (01-12)"
+
+#: src/ExportManager.cpp:800
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minuta (0–59)"
+
+#: src/ExportManager.cpp:801
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minuta (00–59)"
+
+#: src/ExportManager.cpp:802
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Sekunda (0–59)"
+
+#: src/ExportManager.cpp:803
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Sekunda (00–59)"
+
+#: src/ExportManager.cpp:804
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Millisekunda (0–999)"
+
+#: src/ExportManager.cpp:806
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Millisekunda (000–999)"
+
+#: src/ExportManager.cpp:807
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "dop/pop"
+
+#: src/ExportManager.cpp:809
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "dop/pop"
+
+#: src/ExportManager.cpp:811
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "dop/pop"
+
+#: src/ExportManager.cpp:813
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Časovni pas (kratko ime)"
+
+#: src/ExportManager.cpp:814
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Odmik časovnega pasu (±0000)"
+
+#: src/ExportManager.cpp:815
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Odmik časovnega pasu (±00:00)"
+
+#: src/ExportManager.cpp:816
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Časovni pas (dolgo ime)"
+
+#: src/ExportManager.cpp:817
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Sekunde obdobja Unixa"
+
+#: src/ExportManager.cpp:818
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Naslov okna"
+
+#: src/ExportManager.cpp:819
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Zaporedno številčenje zapolnjeno z vstavljanjem znakov '#'"
+
+#: src/FotonCore.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "Pri snemanju posnetka zaslona je prišlo do napake."
+
+#: src/FotonCore.cpp:262
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"Zaslonska slika je bila skopirana na odložišče in shranjena kot <link "
+"url=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:266
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"Zaslonska slika je bila shranjena kot <link url=\"%1\">%2</link> in njeno "
+"mesto je bilo skopirano na odložišče"
+
+#: src/FotonCore.cpp:271
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "Zaslonska slika je bila shranjena kot <link url=\"%1\">%2</link>"
+
+#: src/FotonCore.cpp:275
+#, kde-format
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "Zaslonska slika je bila skopirana na odložišče."
+
+#. i18nc because it doesn't work with the link replacement logic.
+#. Also see https://invent.kde.org/graphics/spectacle/-/merge_requests/432#note_1111125
+#.
+#: src/FotonCore.cpp:295
+#, kde-format
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Najdena koda: %1"
+
+#: src/FotonCore.cpp:299
+#, kde-format
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Najdena koda QR z binarno vsebino."
+
+#: src/FotonCore.cpp:566
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr "--scaled je dovoljen samo skupaj z -f/--fullscreen in bo prezrt"
+
+#: src/FotonCore.cpp:765
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Zaslonska slika je bila shranjena kot '%1' na '%2' in pot te datoteke je "
+"bila shranjena na vaše odložišče."
+
+#: src/FotonCore.cpp:769
+#, kde-format
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Zaslonska slika je bila kot '%1' shranjena v vašo mapo Slike."
+
+#: src/FotonCore.cpp:772
+#, kde-format
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Zaslonska slika je bila shranjena kot '%1' na '%2'."
+
+#: src/FotonCore.cpp:776
+#, kde-format
+msgid "A screenshot was saved to your clipboard."
+msgstr "Zaslonska slika je bila shranjena na vaše odložišče."
+
+#: src/FotonCore.cpp:785
+#, kde-format
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Odpri"
+
+#: src/FotonCore.cpp:803
+#, kde-format
+msgid "Annotate"
+msgstr "Pripiši"
+
+#: src/FotonCore.cpp:806
+#, kde-format
+msgctxt "@action:button"
+msgid "Show in Folder"
+msgstr "Prikaži v mapi"
+
+#: src/FotonCore.cpp:1089
+#, kde-format
+msgctxt "@info"
+msgid "Could not restart Foton."
+msgstr "Programa Foton ni bilo mogoče ponovno zagnati."
+
+#: src/Gui/FotonWindow.cpp:173
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekund"
+msgstr[1] "%1 sekunda"
+msgstr[2] "%1 sekundi"
+msgstr[3] "%1 sekunde"
+
+#: src/Gui/FotonWindow.cpp:176
+#, kde-format
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Neshranjeno"
+
+#: src/Gui/HelpMenu.cpp:40
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomoč"
+
+#: src/Gui/OptionsMenu.cpp:27
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Nastavitve zaslonske slike"
+
+#: src/Gui/OptionsMenu.cpp:29
+#, kde-format
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Vključi miškino kazalko"
+
+#: src/Gui/OptionsMenu.cpp:30
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Pokaži miškino kazalko na zaslonski sliki"
+
+#: src/Gui/OptionsMenu.cpp:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Vključi naslovno vrstico okna in obrobe"
+
+#: src/Gui/OptionsMenu.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "Pokaži naslovno vrstico okna, gumbe skrči/razpni/zapri ter obrobo okna"
+
+#: src/Gui/OptionsMenu.cpp:47
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Vključi senco okna"
+
+#: src/Gui/OptionsMenu.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Prikaži senco okna"
+
+#: src/Gui/OptionsMenu.cpp:56
+#, kde-format
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Zapusti po ročnem shranjevanju ali kopiranju"
+
+#: src/Gui/OptionsMenu.cpp:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit Foton after manually saving or copying the image"
+msgstr "Zapusti Foton po ročnem shranjevanju ali kopiranju slike"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Načini zaslonske slike"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:318
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Drag to move this block"
+msgstr "Povlecite, da premaknete ta blok"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:329
+#, kde-format
+msgctxt "@info:placeholder a block of the file name"
+msgid "Text"
+msgstr "Besedilo"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Any text. Use / to save the screenshot in a subfolder."
+msgstr "Poljubno besedilo. Z znakom / shranite posnetek v podmapo."
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:349
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Date"
+msgstr "Datum"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:352
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Time"
+msgstr "Čas"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:355
+#, kde-format
+msgctxt "@label a block of the file name"
+msgid "Number"
+msgstr "Številka"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The number of digits"
+msgstr "Število števk"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:375
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The format"
+msgstr "Oblika"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:390
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this block"
+msgstr "Odstrani ta blok"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:496
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Left"
+msgstr "Premakni levo"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:499
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Move Right"
+msgstr "Premakni desno"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:503
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "Odstrani"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:537
+#, kde-format
+msgctxt "@action:button add a block to the file name"
+msgid "Add"
+msgstr "Dodaj"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:541
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a block to the file name"
+msgstr "Dodaj blok v ime datoteke"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:544
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Text"
+msgstr "Besedilo"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:547
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Date"
+msgstr "Datum"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:550
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Time"
+msgstr "Čas"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:556
+#, kde-format
+msgctxt "@action:inmenu a block of the file name"
+msgid "Sequential Number"
+msgstr "Zaporedna številka"
+
+#: src/Gui/SettingsDialog/FilenameTemplateEditor.cpp:559
+#, kde-format
+msgctxt "@action:inmenu more blocks for the file name"
+msgid "More"
+msgstr "Več"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:29
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose a folder"
+msgstr "Izberi mapo"
+
+#: src/Gui/SettingsDialog/FolderRequester.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Folder"
+msgstr "Izbira mape"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+#, kde-format
+msgctxt "Settings category"
+msgid "General"
+msgstr "Splošno"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+#, kde-format
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Shranjevanje slike"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:41
+#, kde-format
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Bližnjice"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid "The new language will be used after Foton is restarted."
+msgstr "Novi jezik bo uporabljen po ponovnem zagonu programa Foton."
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:122
+#, kde-format
+msgctxt "@title:window"
+msgid "Language Changed"
+msgstr "Jezik je bil spremenjen"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:123
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr "Ponovno zaženi zdaj"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:124
+#, kde-format
+msgctxt "@action:button"
+msgid "Later"
+msgstr "Pozneje"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:37
+#, kde-format
+msgctxt "@info"
+msgid ""
+"These shortcuts work in all applications while Foton is running, including "
+"when it is running in the system tray."
+msgstr ""
+"Te bližnjice delujejo v vseh programih, dokler se Foton izvaja, tudi ko "
+"deluje v sistemski vrstici."
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Global Shortcuts"
+msgstr "Globalne bližnjice"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:70
+#, kde-format
+msgctxt "@label %1 is the name of an action"
+msgid "%1:"
+msgstr "%1:"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:73
+#, kde-format
+msgctxt "@action:button restore the default shortcut"
+msgid "Default"
+msgstr "Privzeto"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Restore the default: no shortcut"
+msgstr "Obnovi privzeto: brez bližnjice"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:78
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid "Restore the default shortcut: %1"
+msgstr "Obnovi privzeto bližnjico: %1"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid "Click a field, then press the new key combination."
+msgstr "Kliknite polje in nato pritisnite novo kombinacijo tipk."
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:144
+#, kde-format
+msgctxt "@info %1 is a keyboard shortcut, %2 and %3 are the names of actions"
+msgid ""
+"The shortcut %1 is already used for \"%2\". Do you want to use it for \"%3\" "
+"instead?"
+msgstr ""
+"Bližnjica %1 se že uporablja za »%2«. Ali jo želite namesto tega uporabiti "
+"za »%3«?"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:148
+#, kde-format
+msgctxt "@title:window"
+msgid "Shortcut Already Used"
+msgstr "Bližnjica je že v uporabi"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Reassign"
+msgstr "Ponovno dodeli"
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:215
+#, kde-format
+msgctxt "separator of a list of shortcuts"
+msgid ", "
+msgstr ", "
+
+#: src/Gui/SettingsDialog/ShortcutsOptionsPage.cpp:212
+#, kde-format
+msgctxt "@info %2 is a list of keyboard shortcuts"
+msgid ""
+"This shortcut could not be registered because it is used by Windows or "
+"another application: %2"
+msgid_plural ""
+"These shortcuts could not be registered because they are used by Windows or "
+"other applications: %2"
+msgstr[0] ""
+"Bližnjic ni bilo mogoče registrirati, ker jih uporablja Windows ali drugi "
+"programi: %2"
+msgstr[1] ""
+"Bližnjic ni bilo mogoče registrirati, ker jih uporablja Windows ali drugi "
+"programi: %2"
+msgstr[2] ""
+"Bližnjic ni bilo mogoče registrirati, ker jih uporablja Windows ali drugi "
+"programi: %2"
+msgstr[3] ""
+"Bližnjic ni bilo mogoče registrirati, ker jih uporablja Windows ali drugi "
+"programi: %2"
+
+#: src/Gui/TextRecognitionWindow.cpp:206
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/Gui/TextRecognitionWindow.cpp:210
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Izberi vse"
+
+#: src/Gui/TextRecognitionWindow.cpp:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Recognized Text"
+msgstr "Prepoznano besedilo"
+
+#: src/Gui/TextRecognitionWindow.cpp:381
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Language of the text:"
+msgstr "Jezik besedila:"
+
+#: src/Gui/TextRecognitionWindow.cpp:421
+#, kde-format
+msgctxt "@info"
+msgid "Select text on the screenshot or next to it to copy a part of it."
+msgstr "Izberite besedilo na posnetku ali poleg njega, da kopirate njegov del."
+
+#: src/Gui/TextRecognitionWindow.cpp:425
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/Gui/TextRecognitionWindow.cpp:426
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy All"
+msgstr "Kopiraj vse"
+
+#: src/Gui/TextRecognitionWindow.cpp:444
+#, kde-format
+msgctxt "@info"
+msgid "The text was copied to the clipboard."
+msgstr "Besedilo je bilo kopirano v odložišče."
+
+#: src/Gui/TextRecognitionWindow.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Windows has no language installed for text recognition. Add a language in "
+"the Windows settings under Time & Language, Language & Region."
+msgstr ""
+"V sistemu Windows ni nameščenega jezika za prepoznavanje besedila. Dodajte "
+"jezik v nastavitvah sistema Windows pod »Čas in jezik« > »Jezik in regija«."
+
+#: src/Gui/TextRecognitionWindow.cpp:512
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Recognizing text…"
+msgstr "Prepoznavanje besedila …"
+
+#: src/Gui/TextRecognitionWindow.cpp:537
+#, kde-format
+msgctxt "@info %1 is the reason"
+msgid "The text could not be recognized: %1"
+msgstr "Besedila ni bilo mogoče prepoznati: %1"
+
+#: src/Gui/TextRecognitionWindow.cpp:541
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No text was found."
+msgstr "Besedila ni bilo mogoče najti."
+
+#: src/Gui/TextRecognitionWindow.cpp:555
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Language Settings"
+msgstr "Odpri nastavitve jezika"
+
+#: src/Gui/ViewerWindow.cpp:197
+#, kde-format
+msgctxt "@title:window"
+msgid "Screenshot Not Saved"
+msgstr "Posnetek ni shranjen"
+
+#: src/Gui/ViewerWindow.cpp:198
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The screenshot has not been saved. Are you sure you want to close it without "
+"saving?"
+msgstr ""
+"Zaslonski posnetek ni shranjen. Ali ga res želite zapreti brez shranjevanja?"
+
+#: src/Gui/ViewerWindow.cpp:200
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Shrani"
+
+#: src/Gui/ViewerWindow.cpp:201
+#, kde-format
+msgctxt "@action:button"
+msgid "Close Without Saving"
+msgstr "Zapri brez shranjevanja"
+
+#: src/Gui/ViewerWindow.cpp:202
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: src/Language.cpp:83
+#, kde-format
+msgctxt "@item:inlistbox interface language"
+msgid "System language"
+msgstr "Sistemski jezik"
+
+#: src/Main.cpp:83
+#, kde-format
+msgid "Foton"
+msgstr "Foton"
+
+#: src/Main.cpp:85
+#, kde-format
+msgid "Screenshot utility for Windows, a reworked port of KDE Spectacle"
+msgstr ""
+"Orodje za zaslonske posnetke za Windows, predelana različica KDE Spectacle"
+
+#: src/Main.cpp:87
+#, kde-format
+msgid ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta and the Spectacle developers"
+msgstr ""
+"© 2026 Dr-Livsi (Foton)\n"
+"© 2015 Boudhayan Gupta in razvijalci Spectacle"
+
+#: src/Main.cpp:93
+#, kde-format
+msgid "Author of the Foton port"
+msgstr "Avtor različice Foton"
+
+#: src/Main.cpp:94
+#, kde-format
+msgid "Original author of Spectacle"
+msgstr "Prvotni avtor Spectacle"
+
+#: src/Main.cpp:95 src/Main.cpp:96
+#, kde-format
+msgid "Spectacle developer"
+msgstr "Razvijalec Spectacle"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jure Repinc,Andrej Mernik,Matjaž Jeran"
+
+#: src/Main.cpp:97
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jlp@holodeck1.com,andrejm@ubuntu.si,matjaz.jeran@amis.net"
+
+#: src/Platforms/ImagePlatformWindows.cpp:418
+#: src/Platforms/ImagePlatformWindows.cpp:449
+#, kde-format
+msgctxt "@info, %1 is the name of a screen"
+msgid "Could not capture the screen %1."
+msgstr "Zaslona %1 ni bilo mogoče zajeti."
+
+#: src/Platforms/ImagePlatformWindows.cpp:506
+#, kde-format
+msgctxt "@info"
+msgid "The window is not visible on any screen."
+msgstr "Okno ni vidno na nobenem zaslonu."
+
+#: src/Platforms/ImagePlatformWindows.cpp:512
+#, kde-format
+msgctxt "@info"
+msgid "Could not capture the window."
+msgstr "Okna ni bilo mogoče zajeti."
+
+#: src/ShortcutActions.cpp:37
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton"
+msgstr "Zaženi Foton"
+
+#: src/ShortcutActions.cpp:40
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Zajemi celotno namizje"
+
+#: src/ShortcutActions.cpp:43
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Zajemi trenutni zaslon"
+
+#: src/ShortcutActions.cpp:46
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Zajemi dejavno okno"
+
+#: src/ShortcutActions.cpp:49
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Zajemi pravokotno območje"
+
+#: src/ShortcutActions.cpp:52
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Zajemi okno pod kazalko"
+
+#: src/ShortcutActions.cpp:55
+#, kde-format
+msgctxt "@action global shortcut"
+msgid "Launch Foton without capturing"
+msgstr "Zaženi Foton brez zajemanja"
+
+#: src/TextRecognitionNull.cpp:31
+#, kde-format
+msgctxt "@info"
+msgid "Text recognition is not available on this system."
+msgstr "Prepoznavanje besedila v tem sistemu ni na voljo."
+
+#: src/TextRecognitionWindows.cpp:80
+#, kde-format
+msgctxt "@info"
+msgid "There is no image."
+msgstr "Ni slike."
+
+#: src/TextRecognitionWindows.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid "No language for text recognition is installed in Windows."
+msgstr "V sistemu Windows ni nameščenega jezika za prepoznavanje besedila."
+
+#: src/TextRecognitionWindows.cpp:172
+#, kde-format
+msgctxt "@info"
+msgid "An unknown error occurred."
+msgstr "Prišlo je do neznane napake."
+
+#: src/TrayIcon.cpp:49
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure Foton…"
+msgstr "Nastavi Foton…"
+
+#: src/TrayIcon.cpp:58
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Končaj"
+
+#: src/TrayIcon.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Foton\n"
+"Click to take a screenshot"
+msgstr ""
+"Foton\n"
+"Kliknite za zaslonski posnetek"
+
+#: src/TrayIcon.cpp:85
+#, kde-format
+msgctxt "@info:tooltip %1 is a keyboard shortcut"
+msgid ""
+"Foton\n"
+"Click or press %1 to take a screenshot"
+msgstr ""
+"Foton\n"
+"Kliknite ali pritisnite %1 za zaslonski posnetek"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Sprejmi"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:56
+msgid "Stroke:"
+msgstr "Zapis:"
+
+#. i18n uses so it doesn't matter that much
+#. unless someone decides to set the locale for a specific
+#. part of Foton in the future.
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1 sl. pik"
+msgstr[1] "%1 sl. pika"
+msgstr[2] "%1 sl. piki"
+msgstr[3] "%1 sl. pike"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:93
+msgid "Stroke Width"
+msgstr "Širina zapisa"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:126
+msgid "Stroke Color"
+msgstr "Barva zapisa"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:162
+msgid "Fill:"
+msgstr "Polnilo:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:174
+msgid "Fill Color"
+msgstr "Barva polnila"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:213
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Moč:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:232
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Moč učinka."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:259
+msgid "Font:"
+msgstr "Pisava:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:273
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1 pik"
+msgstr[1] "%2 %3 %1 pika"
+msgstr[2] "%2 %3 %1 piki"
+msgstr[3] "%2 %3 %1 pike"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:274
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1 pik"
+msgstr[1] "%2 %1 pika"
+msgstr[2] "%2 %1 piki"
+msgstr[3] "%2 %1 pike"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:286
+msgid "Font Color"
+msgstr "Barva pisave"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:325
+msgid "Number:"
+msgstr "Število:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:344
+msgid "Number for number annotations"
+msgstr "Število za številske opombe"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:372
+msgid "Shadow"
+msgstr "Senca"
+
+#: src/Gui/AnnotationsToolBarContents.qml:108
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Noben"
+
+#: src/Gui/AnnotationsToolBarContents.qml:120
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Obreži"
+
+#: src/Gui/AnnotationsToolBarContents.qml:127
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Izberi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:136
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Prostoročno"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Dvigalka: Zaskoči na ravne črte"
+
+#: src/Gui/AnnotationsToolBarContents.qml:144
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Poudarjalnik"
+
+#: src/Gui/AnnotationsToolBarContents.qml:153
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Črta"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Dvigalka: Zaskoči v korakih po 45 stopinj"
+
+#: src/Gui/AnnotationsToolBarContents.qml:161
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Puščica"
+
+#: src/Gui/AnnotationsToolBarContents.qml:170
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Pravokotnik"
+
+#: src/Gui/AnnotationsToolBarContents.qml:172
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Dvigalka: Zaskoči na diagonalne premike\n"
+"Kontrolka: Spremeni velikost od sredine"
+
+#: src/Gui/AnnotationsToolBarContents.qml:179
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipsa"
+
+#: src/Gui/AnnotationsToolBarContents.qml:187
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Spremeni v kvadratke"
+
+#: src/Gui/AnnotationsToolBarContents.qml:195
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Zamegli"
+
+#: src/Gui/AnnotationsToolBarContents.qml:203
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Besedilo"
+
+#: src/Gui/AnnotationsToolBarContents.qml:210
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Število"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: src/Gui/CaptureModeButtonsColumn.qml:31
+#: src/Gui/NewScreenshotToolButton.qml:15
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Prekliči (%1 sekund)"
+msgstr[1] "Prekliči (%1 sekunda)"
+msgstr[2] "Prekliči (%1 sekundi)"
+msgstr[3] "Prekliči (%1 sekunde)"
+
+#: src/Gui/CaptureOptions.qml:36
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Nastavitve zaslonske slike"
+
+#: src/Gui/CaptureOverlay.qml:135
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Kliknite in povlecite, da izberete."
+
+#: src/Gui/CaptureSettingsColumn.qml:15
+msgid "Include mouse pointer"
+msgstr "Vključi miškino kazalko"
+
+#: src/Gui/CaptureSettingsColumn.qml:16
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Pokaži miškino kazalko na zaslonski sliki."
+
+#: src/Gui/CaptureSettingsColumn.qml:24
+msgid "Include window titlebar and borders"
+msgstr "Vključi nazivno vrstico in obrobe okna"
+
+#: src/Gui/CaptureSettingsColumn.qml:25
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "Pokaži naslovno vrstico okna in obrobo, ko se zajema zaslonsko sliko."
+
+#: src/Gui/CaptureSettingsColumn.qml:33
+msgid "Include window shadow"
+msgstr "Vključi senco okna"
+
+#: src/Gui/CaptureSettingsColumn.qml:34
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Pokaži senco okna, ko se zajema zaslonsko sliko."
+
+#: src/Gui/CaptureSettingsColumn.qml:43
+msgid "Quit after manual Save or Copy"
+msgstr "Zapusti po ročnem shranjevanju ali kopiranju"
+
+#: src/Gui/CaptureSettingsColumn.qml:44
+msgid "Quit Foton after manually saving or copying the image."
+msgstr "Zapusti Foton po ročnem shranjevanju ali kopiranju slike."
+
+#: src/Gui/CopyImageAction.qml:10
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Kopiraj mesto"
+
+#: src/Gui/DialogPage.qml:53
+msgid "Configure Foton…"
+msgstr "Nastavi Foton …"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Pomoč"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Zajemi zaslonsko sliko:"
+
+#: src/Gui/DialogPage.qml:95
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Možnosti"
+
+#: src/Gui/EditAction.qml:10
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Uredi…"
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Pomoč"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Odpri vsebovano mapo"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Kopiraj na odložišče"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Zapri"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Nova zaslonska slika"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Možnosti"
+
+#: src/Gui/RecognizeTextAction.qml:11
+msgctxt "@action"
+msgid "Recognize Text"
+msgstr "Prepoznaj besedilo"
+
+#: src/Gui/SaveAction.qml:10
+msgctxt "@action"
+msgid "Save"
+msgstr "Shrani"
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Shrani kot…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Nova zaslonska slika"
+
+#: src/Gui/ScreenshotView.qml:226
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Kliknite in povlecite, da naredite izbor.\n"
+"Dvokliknite izbor, da ga sprejmete in obrežete.\n"
+"Desni klik, da počistite izbiro."
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Zajemi zaslonsko sliko:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Ustvari nov zajemalni pravokotnik:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Preseli zajemalni pravokotnik:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Spremeni velikost zajemalnega pravokotnika:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Ponovno nastavi izbor pravokotnika:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Prekliči:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Sprosti levi klik"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Dvojni klik"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Povleci izven zajemalnega pravokotnika"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: Povečevalnik"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Povleci znotraj zajemalnega pravokotnika"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Tipke puščice"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: Premakni v korakih 1 piksla"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Povleci ročke"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Tipke puščice + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: Spremeni velikost v korakih 1 piksla"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Desni klik"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Razveljavi"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Uveljavi"
+
+#: src/Gui/ViewerPage.qml:66
+msgctxt "@info:tooltip"
+msgid ""
+"Recognize the text in the screenshot and show it in a window where it can be "
+"copied"
+msgstr ""
+"Prepoznaj besedilo na posnetku in ga prikaži v oknu, iz katerega ga je "
+"mogoče kopirati"
+
+#: src/Gui/ViewerPage.qml:174
+msgid "Zoom:"
+msgstr "Približanje:"
+
+#: src/Gui/ViewerPage.qml:188
+msgid "Image Zoom"
+msgstr "Približanje slike"
+
+#: src/Gui/ViewerPage.qml:221
+msgctxt "@action:button"
+msgid "Zoom Out"
+msgstr "Pomanjšaj"
+
+#: src/Gui/ViewerPage.qml:238
+msgctxt "@action:button"
+msgid "Zoom In"
+msgstr "Povečaj"
+
+#: src/Gui/ViewerPage.qml:245
+msgctxt "@action:button"
+msgid "Fit to Window"
+msgstr "Prilagodi oknu"

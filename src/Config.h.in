@@ -1,0 +1,13 @@
+#ifndef FOTON_CONFIG_H
+#define FOTON_CONFIG_H
+
+/* Set the Foton version from CMake */
+#cmakedefine FOTON_VERSION "@FOTON_VERSION@"
+
+/* Set the QML module URI from CMake */
+#cmakedefine FOTON_QML_URI "@FOTON_QML_URI@"
+
+/* Set the QML module URI from CMake */
+static const auto FOTON_QML_PATH = u"@FOTON_QML_PATH@";
+
+#endif

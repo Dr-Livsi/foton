@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeneralOptions</class>
+ <widget class="QWidget" name="GeneralOptions">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QGroupBox" name="languageGroup">
+     <property name="title">
+      <string>Language and Startup</string>
+     </property>
+     <layout class="QFormLayout" name="languageLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="languageLabel">
+        <property name="text">
+         <string>Language:</string>
+        </property>
+        <property name="buddy">
+         <cstring>languageComboBox</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="languageComboBox">
+        <property name="maxVisibleItems">
+         <number>15</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="languageHint">
+        <property name="text">
+         <string>A new language is used after Foton is restarted.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_startWithWindows">
+        <property name="text">
+         <string>Start Foton automatically with Windows</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_runInBackground">
+        <property name="text">
+         <string>Keep running in the system tray after the windows are closed</string>
+        </property>
+        <property name="toolTip">
+         <string>The screenshot keys only work while Foton is running.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="launchGroup">
+     <property name="title">
+      <string>Taking Screenshots</string>
+     </property>
+     <layout class="QFormLayout" name="launchLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="launchActionLabel">
+        <property name="text">
+         <string>When Foton is started:</string>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_launchAction</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="kcfg_launchAction">
+        <item>
+         <property name="text">
+          <string>Select a region</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Take a screenshot of the whole screen</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Use the last capture mode</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Only open the Foton window</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="printKeyActionLabel">
+        <property name="text">
+         <string>When Foton is already running:</string>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_printKeyRunningAction</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="kcfg_printKeyRunningAction">
+        <item>
+         <property name="text">
+          <string>Take a new screenshot</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Open a new Foton window</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bring the Foton window to the front</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="afterGroup">
+     <property name="title">
+      <string>After Taking a Screenshot</string>
+     </property>
+     <layout class="QFormLayout" name="afterLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_autoSaveImage">
+        <property name="text">
+         <string>Save the screenshot to the default folder</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="clipboardLabel">
+        <property name="text">
+         <string>Clipboard:</string>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_clipboardGroup</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="kcfg_clipboardGroup">
+        <item>
+         <property name="text">
+          <string>Do not copy anything</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Copy the image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Copy the file location</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="editingGroup">
+     <property name="title">
+      <string>Editing</string>
+     </property>
+     <layout class="QFormLayout" name="editingLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_annotationShadow">
+        <property name="text">
+         <string>Add a shadow to shapes, arrows and text</string>
+        </property>
+        <property name="toolTip">
+         <string>Used for every new screenshot. The shadow can still be turned on or off while editing.</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="regionGroup">
+     <property name="title">
+      <string>Region Selection</string>
+     </property>
+     <layout class="QFormLayout" name="regionLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_useLightMaskColor">
+        <property name="text">
+         <string>Lighten the area around the selection instead of darkening it</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <widget class="QCheckBox" name="kcfg_useReleaseToCapture">
+        <property name="text">
+         <string>Take the screenshot as soon as the mouse button is released</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="magnifierLabel">
+        <property name="text">
+         <string>Magnifier:</string>
+        </property>
+        <property name="buddy">
+         <cstring>kcfg_showMagnifier</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="kcfg_showMagnifier">
+        <item>
+         <property name="text">
+          <string>Never</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Always</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>While holding Shift</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="bottomSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>languageComboBox</tabstop>
+  <tabstop>kcfg_startWithWindows</tabstop>
+  <tabstop>kcfg_runInBackground</tabstop>
+  <tabstop>kcfg_launchAction</tabstop>
+  <tabstop>kcfg_printKeyRunningAction</tabstop>
+  <tabstop>kcfg_autoSaveImage</tabstop>
+  <tabstop>kcfg_clipboardGroup</tabstop>
+  <tabstop>kcfg_annotationShadow</tabstop>
+  <tabstop>kcfg_useLightMaskColor</tabstop>
+  <tabstop>kcfg_useReleaseToCapture</tabstop>
+  <tabstop>kcfg_showMagnifier</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
